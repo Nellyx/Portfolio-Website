@@ -23,7 +23,7 @@ function Navbar() {
         <a href="http://">
           <h2>nelly</h2>
         </a>
-        <img src="/images/menu.svg" alt="hamburger" />
+        <img className="menu" src="/images/menu.svg" alt="hamburger" />
       </nav>
       <div className="box-pattern"></div>
       <img className="avatar" src="/images/avatar.png" alt="avatar" />

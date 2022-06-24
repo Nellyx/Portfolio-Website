@@ -1,3 +1,45 @@
-.experience{
+.experience {
   background-color: #193498;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.experience .flex {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.experience .header-text {
+  color: #64fbd3;
+  font-family: SF UI Display;
+  font-size: 51px;
+}
+
+.experience .paragraph {
+  margin-top: 20px;
+  color: #64fbd3;
+  width: 429px;
+  text-align: justify;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: SF UI Display;
+}
+
+.experience .text button {
+  margin-top: 20px;
+  background-color: transparent;
+  padding: 15px 32px;
+  border: 1px solid #64fbd3;
+  border-radius: 4px;
+  color: #64fbd3;
+  align-items: center;
+  display: flex;
+}
+.experience .text button img {
+  fill: #64fbd3;
+  width: 15%;
+  color: #64fbd3;
+  margin-left: 2px;
 }

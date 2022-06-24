@@ -1,0 +1,10 @@
+.work {
+  background-image: url(/public/images/background.svg);
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.work .content {
+  max-width: 1200px;
+  display: flex;
+  margin: auto;
+}

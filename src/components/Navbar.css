@@ -16,6 +16,11 @@
   left: 92px;
   align-items: center;
 }
+
+.navbar nav .menu {
+  fill: #193498;
+}
+
 .navbar nav a {
   color: #64fbd3;
   text-decoration: none;
