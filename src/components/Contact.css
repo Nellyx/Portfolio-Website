@@ -10,12 +10,14 @@
 }
 
 .contact p {
-  margin-top: 20px;
+  
   width: 350px;
+  margin:30px auto;
 }
 
 .contact label {
   display: block;
+  text-align: left;
 }
 
 .contact .content .forms1 {

@@ -20,11 +20,7 @@ function Contact() {
           </div>
           <div className="forms2">
             <div>
-              <label htmlFor="your name">Your Name</label>
-              <input type="text" />
-            </div>
-            <div>
-              <label htmlFor="Email Adress">Email Address</label>
+              <label htmlFor="your message">Your message</label>
               <input type="text" />
             </div>
           </div>
