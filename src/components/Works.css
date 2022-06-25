@@ -11,25 +11,65 @@
 
 .work h1 {
   color: #221042;
+  font-family: SF UI Display;
+  font-size: 40px;
+  font-weight: 800;
 }
 .work .content .container-one p {
   text-align: justify;
-  width: 345px;
+  width: 466px;
   margin-top: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  font-family: SF UI Display;
 }
 
 .work .content .container-one button {
-  padding: 15px 32px;
   background-color: #221042;
   color: #fff;
   margin-top: 15px;
   border-radius: 4px;
   display: flex;
   align-items: center;
+  border: 0px solid #221042;
+  font-size: 14px;
+  padding: 15px 32px;
 }
 
-.work .content .container-one img {
-  width: 15%;
+.work .content .container-one button img {
+  width: 25px;
   margin-left: 12px;
   color: #fff;
+}
+
+.work .container-two p {
+  text-align: justify;
+  width: 520px;
+  margin-top: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  font-family: SF UI Display;
+}
+
+.work .container-two .sub-container button {
+  background-color: #221042;
+  color: #fff;
+  margin-top: 15px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  border: 0px solid #221042;
+  font-size: 14px;
+  padding: 15px 32px;
+}
+
+.work .container-two .sub-container button img {
+  width: 25px;
+  margin-left: 12px;
+  color: #fff;
+}
+
+.work .container-two .sub-container {
+  margin-top: 63px;
+  margin-left: 165px;
 }

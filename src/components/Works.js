@@ -14,18 +14,21 @@ function Works() {
           </p>
 
           <button>
-            See my works
-            <img src="/images/east.svg" alt="" />
+            See my works <img src="/images/east.svg" alt="left arrow" />
           </button>
         </div>
 
         <div className="container-two">
-          <h1>UI/UX Design</h1>
-          <p>
-            I design too using Figma tool. I'm dedicated to providing fluid user
-            experiences while being stylish.
-          </p>
-          <button>See my works</button>
+          <div className="sub-container">
+            <h1>UI/UX Design</h1>
+            <p>
+              I design too using Figma tool. I'm dedicated to providing fluid
+              user experiences while being stylish.
+            </p>
+            <button>
+              See my works <img src="/images/east.svg" alt="left arrow" />
+            </button>
+          </div>
         </div>
       </div>
     </div>

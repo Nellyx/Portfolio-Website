@@ -1,0 +1,16 @@
+.contact {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.contact .content {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact .content .forms1 {
+  display: flex;
+  margin: auto;
+  width: 500px;
+}
