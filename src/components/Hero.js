@@ -1,10 +1,10 @@
-import "./Navbar.css";
+import "./Hero.css";
 
 import React from "react";
 
-function Navbar() {
+function Hero() {
   return (
-    <div className="navbar">
+    <div className="hero">
       <div className="flex">
         <div className="box1">
           <div className="text">
@@ -19,12 +19,6 @@ function Navbar() {
         <div className="box2"></div>
       </div>
 
-      <nav>
-        <a href="http://">
-          <h2>nelly</h2>
-        </a>
-        <img className="menu" src="/images/menu.svg" alt="hamburger" />
-      </nav>
       <div className="box-pattern"></div>
       <img className="avatar" src="/images/avatar.png" alt="avatar" />
       <img className="frame1" src="/images/Frame 20.svg" alt="frame" />
@@ -53,4 +47,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Hero;

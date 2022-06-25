@@ -1,0 +1,42 @@
+.navbar {
+  position: relative;
+  display: flex;
+ 
+}
+
+.navbar .blue-background {
+  height: 60px;
+  width: 800px;
+  background-color: #193498;
+}
+
+.navbar .green-background {
+  background-color: #64fbd3;
+  height: 60px;
+  width: 700px;
+}
+
+.navbar nav {
+  display: flex;
+  width: 1200px;
+  margin: auto;
+  align-items: center;
+  top: 11px;
+  left: 92px;
+  position: absolute;
+  justify-content: space-between;
+}
+
+.navbar nav a.brand {
+  margin-right: 0px auto;
+  text-decoration: none;
+  color: #64fbd3;
+  font-weight: 800px;
+  font-family: SF UI Display;
+  font-size: 20px;
+}
+.navbar nav a.link {
+  margin: 60px;
+  text-decoration: none;
+  color: #193498;
+}

@@ -1,10 +1,10 @@
-import "./About.css";
+import "./Aboutbar.css";
 
 import React from "react";
 
-function About() {
+function Aboutbar() {
   return (
-    <div className="about">
+    <div className="aboutbar">
       <div className="about-content">
         <div className="left-text">
           <p className="heading">About Me</p>
@@ -42,4 +42,4 @@ function About() {
   );
 }
 
-export default About;
+export default Aboutbar;

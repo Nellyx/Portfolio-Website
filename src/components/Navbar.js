@@ -1,23 +1,27 @@
 import React from "react";
 import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
-
+import "./Navbar.css";
 function Navbar() {
   return (
-    <div>
+    <div className="navbar">
+      <div className="blue-background"></div>
+      <div className="green-background"></div>
+
       <nav>
-        <NavLink exact to="/">
-          nelly
+        <NavLink className="brand" exact to="/">
+          <h1>nelly</h1>
         </NavLink>
-        <ul>
-  <NavLink to=''>
-  
-  
-  <li>About</li>
-  
-  </NavLink>        
-          <li>Work</li>
-          <li>Contact</li>
-        </ul>
+        <div>
+          <NavLink className="link" to="/about">
+            About
+          </NavLink>
+          <NavLink className="link" to="">
+            Work
+          </NavLink>
+          <NavLink className="link" to="">
+            Contact
+          </NavLink>
+        </div>
       </nav>
     </div>
   );

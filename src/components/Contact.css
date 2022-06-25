@@ -6,29 +6,45 @@
 .contact .content {
   max-width: 1200px;
   margin: auto;
+}
+
+.contact .content h1 {
   text-align: center;
 }
 
-.contact p {
-  
-  width: 350px;
-  margin:30px auto;
-}
-
-.contact label {
-  display: block;
-  text-align: left;
-}
-
-.contact .content .forms1 {
-  display: flex;
-  margin: auto;
-  width: fit-content;
+.contact .content p {
+  text-align: center;
   margin-top: 20px;
 }
-.contact .content .forms2 {
+
+.contact .content form {
+  margin: 41px auto;
+  width: 700px;
+}
+
+.contact .content form label {
+  display: block;
+}
+
+.contact .forms1 {
   display: flex;
-  margin: auto;
-  width: fit-content;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.contact .content form input {
+  margin-top: 20px;
+  width: 300px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: #2a1452;
+}
+
+.contact .content form .input-form2 {
+  width: 700px;
+}
+
+.contact .content form .forms2 {
   margin-top: 20px;
 }

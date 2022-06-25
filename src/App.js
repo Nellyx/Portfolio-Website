@@ -1,17 +1,25 @@
 import "./App.css";
-import About from "./components/About";
-import Experience from "./components/Experience";
-import Works from "./components/Works";
-import Contact from "./components/Contact";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  NavLink
+} from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./pages/home/Home";
+import About from "./pages/about/About";
 
 function App() {
   return (
     <div className="App">
-  
-      <About />
-      <Experience />
-      <Works />
-      <Contact />
+      <Router>
+        <Navbar />
+
+        <Routes>
+          <Route exact path="/" element={<Home />}></Route>
+          <Route exact path="/about" element={<About />}></Route>
+        </Routes>
+      </Router>
     </div>
   );
 }

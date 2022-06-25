@@ -1,16 +1,16 @@
-.about {
+.aboutbar {
   background-image: url(/public/images/background.svg);
   padding-top: 20px;
   padding-bottom: 60px;
 }
 
-.about .about-content {
+.aboutbar .about-content {
   display: flex;
   max-width: 1200px;
   margin: auto;
 }
 /* left text */
-.about .about-content .left-text p {
+.aboutbar .about-content .left-text p {
   width: 523px;
   font-size: 18px;
   font-weight: 500;
@@ -20,31 +20,31 @@
   margin-top: 20px;
 }
 
-.about .about-content .left-text h1 {
+.aboutbar .about-content .left-text h1 {
   width: 404px;
   font-weight: 700;
   font-size: 28px;
   color: #221042;
 }
 
-.about .about-content .right-text .my-skills {
+.aboutbar .about-content .right-text .my-skills {
   margin-top: 41px;
   margin-left: 99px;
 }
 
 /* right text */
-.about .about-content .right-text h2 {
+.aboutbar .about-content .right-text h2 {
   margin-top: 10px;
 }
 
-.about .about-content .right-text .my-skills h2 {
+.aboutbar .about-content .right-text .my-skills h2 {
   width: 404px;
   font-weight: 700;
   font-size: 28px;
   color: #221042;
 }
 
-.about .about-content .right-text p {
+.aboutbar .about-content .right-text p {
   width: 523px;
   font-size: 18px;
   font-weight: 500;
@@ -56,6 +56,6 @@
 
 /* headings */
 
-.about .heading {
+.aboutbar .heading {
   color: #193498;
 }
