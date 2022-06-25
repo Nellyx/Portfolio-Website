@@ -1,5 +1,5 @@
 .contact {
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 
@@ -9,8 +9,24 @@
   text-align: center;
 }
 
+.contact p {
+  margin-top: 20px;
+  width: 350px;
+}
+
+.contact label {
+  display: block;
+}
+
 .contact .content .forms1 {
   display: flex;
   margin: auto;
-  width: 500px;
+  width: fit-content;
+  margin-top: 20px;
+}
+.contact .content .forms2 {
+  display: flex;
+  margin: auto;
+  width: fit-content;
+  margin-top: 20px;
 }

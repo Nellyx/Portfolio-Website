@@ -13,13 +13,21 @@ function Contact() {
               <label htmlFor="your name">Your Name</label>
               <input type="text" />
             </div>
-
             <div>
               <label htmlFor="Email Adress">Email Address</label>
               <input type="text" />
             </div>
           </div>
-          <div className="forms2"></div>
+          <div className="forms2">
+            <div>
+              <label htmlFor="your name">Your Name</label>
+              <input type="text" />
+            </div>
+            <div>
+              <label htmlFor="Email Adress">Email Address</label>
+              <input type="text" />
+            </div>
+          </div>
         </form>
       </div>
     </div>
