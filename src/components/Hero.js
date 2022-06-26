@@ -43,6 +43,15 @@ function Hero() {
         src="images/Frame 17.svg"
         alt="frame pattern"
       />
+      <div className="socials">
+      <img src="/images/facebook.svg" alt="facebook icon"/>
+        <img src="/images/twitter.svg" alt="facebook icon" />
+        <img src="images/linked.svg" alt="linkedin icon" />
+
+
+img
+
+      </div>
     </div>
   );
 }
