@@ -1,6 +1,6 @@
 .contact {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 .contact .content {
@@ -24,6 +24,7 @@
 
 .contact .content form label {
   display: block;
+  color: #2a1452;
 }
 
 .contact .forms1 {
@@ -47,4 +48,22 @@
 
 .contact .content form .forms2 {
   margin-top: 20px;
+}
+
+.contact .content form .button-div {
+  margin: auto;
+  width: fit-content;
+}
+
+.contact .content form button {
+  margin: 40px auto;
+  text-align: center;
+  align-items: center;
+  padding: 18px 23px;
+  color: white;
+  background-color: #221042;
+  border: 0px solid #2a1452;
+  font-size: 14px;
+  font-family: SF UI Display;
+  border-radius: 4px;
 }

@@ -24,6 +24,9 @@ function Contact() {
               <input className="input-form2" type="text" />
             </div>
           </div>
+          <div className="button-div">
+            <button>Send Message</button>
+          </div>
         </form>
       </div>
     </div>

@@ -4,6 +4,7 @@ import Aboutbar from "../../components/Aboutbar";
 import Experience from "../../components/Experience";
 import Works from "../../components/Works";
 import Contact from "../../components/Contact";
+import Footer from "../../components/Footer";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <Experience />
       <Works />
       <Contact />
+      <Footer />
     </div>
   );
 }
