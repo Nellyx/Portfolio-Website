@@ -16,3 +16,7 @@
 .footer .footer-content .footer-flex {
   display: flex;
 }
+
+.footer .footer-content .footer-flex p {
+  align-items: center;
+}

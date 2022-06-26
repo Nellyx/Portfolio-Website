@@ -141,3 +141,19 @@
   top: 200px;
   right: 362px;
 }
+
+.hero .social {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 43px;
+  right: 107px;
+}
+
+.hero .social div {
+  margin: 10px;
+}
+
+.hero .social img {
+  width: 5%;
+}

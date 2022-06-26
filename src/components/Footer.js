@@ -8,9 +8,18 @@ function Footer() {
         <div className="footer-flex">
           <div>
             <h1>Say Hello</h1>
-            <p> neilsonmike14 </p>
-            <p>08061332918</p>
-            <p>Abeokuta Ogunstate</p>
+            <p>
+              <img src="images/mail.svg" alt="" />
+              neilsonmike14
+            </p>
+            <p>
+              <img src="images/call.svg" alt="" />
+              08061332918
+            </p>
+            <p>
+              <img src="images/location.svg" alt="" />
+              Abeokuta Ogunstate
+            </p>
           </div>
 
           <div>
