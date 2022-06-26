@@ -19,7 +19,7 @@ function Aboutbar() {
         </div>
 
         <div className="right-text">
-          <p>
+          <p className="main">
             I am a frontend developer with 3+ years of experience. I am an
             expert in creating amazing digital web products
           </p>
@@ -28,13 +28,30 @@ function Aboutbar() {
             <p className="heading">My Skills</p>
             <h2>Why hire me for your next project</h2>
 
-            <p>
+            <p className="main">
               I possess all the skills and experiences your looking for to build
               a high-end solid and scalable front-end products with great user
               experiences. I have built products for small companies and start
               ups around the globe ranging from marketing to complex solution
               enterprises.
             </p>
+
+            <div className="techbox">
+              <p className="tech-text">
+                Here are the technologies i have been working with recently:
+              </p>
+
+              <div className="grid">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Javascript</p>
+                <p>Bootstrap</p>
+                <p>Typescript</p>
+                <p>Reactjs</p>
+                <p>Firebase</p>
+                <p>Firestore</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

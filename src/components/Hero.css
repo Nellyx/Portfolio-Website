@@ -142,18 +142,15 @@
   right: 362px;
 }
 
-.hero .social {
+.hero .socials {
   display: flex;
   flex-direction: column;
   position: absolute;
   bottom: 43px;
-  right: 107px;
+  right: 117px;
 }
 
-.hero .social div {
-  margin: 10px;
-}
-
-.hero .social img {
-  width: 5%;
+.hero .socials img {
+  width: 80%;
+  margin: 10px 0px;
 }

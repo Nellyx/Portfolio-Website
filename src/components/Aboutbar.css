@@ -44,7 +44,7 @@
   color: #221042;
 }
 
-.aboutbar .about-content .right-text p {
+.aboutbar .about-content .right-text .main {
   width: 523px;
   font-size: 18px;
   font-weight: 500;
@@ -58,4 +58,24 @@
 
 .aboutbar .heading {
   color: #193498;
+}
+
+.aboutbar .about-content .right-text .techbox .sub-techbox {
+  display: flex;
+  margin: 10px 0px;
+}
+
+.aboutbar .about-content .right-text .techbox .tech-text {
+  width: 523px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #333;
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.aboutbar .about-content .right-text .techbox {
+  display: grid;
+  grid-auto-columns: 1fr 1fr 1fr;
 }

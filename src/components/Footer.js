@@ -31,7 +31,7 @@ function Footer() {
           </div>
         </div>
         <div className="line"></div>
-        <p>Michael Nelson 2022</p>
+        <p className="copyright ">Michael Nelson 2022</p>
       </div>
     </div>
   );
