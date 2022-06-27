@@ -51,6 +51,10 @@ function Hero() {
         <img src="images/twitter.svg" alt="twitter icon" />
         <img src="images/instagram.svg" alt="instagram icon" />
       </div>
+      <img className="dot1" src="images/dot.svg" alt="dot pattern" />
+      <img className="dot2" src="images/dot.svg" alt="dot pattern" />
+      <img className="dot3" src="images/dot.svg" alt="dot pattern" />
+      <img className="dot4" src="images/dot.svg" alt="dot pattern" />
     </div>
   );
 }

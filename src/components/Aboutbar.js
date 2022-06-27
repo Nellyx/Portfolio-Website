@@ -9,21 +9,20 @@ function Aboutbar() {
         <div className="left-text">
           <p className="heading">About Me</p>
           <h1>Michael Nelson</h1>
-          <p>
+          <p className="main">
             I am a young determined, self-motivated and passionate Frontend
             developer aimed at making positive impact in the growth and
             development of an organization that aligns with my values and
             career. I am well-versed in a variety of modern web tools, as well
             as the concepts and practices of web app development and maintenance
           </p>
-        </div>
-
-        <div className="right-text">
           <p className="main">
             I am a frontend developer with 3+ years of experience. I am an
             expert in creating amazing digital web products
           </p>
+        </div>
 
+        <div className="right-text">
           <div className="my-skills">
             <p className="heading">My Skills</p>
             <h2>Why hire me for your next project</h2>

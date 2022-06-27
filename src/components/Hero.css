@@ -154,3 +154,24 @@
   width: 80%;
   margin: 10px 0px;
 }
+
+.hero .dot1 {
+  position: absolute;
+  top: 20px;
+  right: 100px;
+}
+.hero .dot2 {
+  position: absolute;
+  top: 230px;
+  right: 290px;
+}
+.hero .dot3 {
+  position: absolute;
+  top: 20px;
+  right: 540px;
+}
+.hero .dot4 {
+  position: absolute;
+  top: 470px;
+  right: 470px;
+}
