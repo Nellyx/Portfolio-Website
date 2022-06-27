@@ -12,7 +12,7 @@ function Navbar() {
           <h1>nelly</h1>
         </NavLink>
         <div>
-          <NavLink className="link" to="/about">
+          <NavLink className="link" exact to="/about">
             About
           </NavLink>
           <NavLink className="link" to="">

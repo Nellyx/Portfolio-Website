@@ -33,6 +33,14 @@ function Footer() {
         <div className="line"></div>
         <p className="copyright ">Michael Nelson 2022</p>
       </div>
+
+      <div className="socials">
+        <img src="images/github.svg" alt="github icon" />
+        <img src="images/linkedin.svg" alt="linked icon" />
+        <img src="images/facebook.svg" alt="facebook icon" />
+        <img src="images/twitter.svg" alt="twitter icon" />
+        <img src="images/instagram.svg" alt="instagram icon" />
+      </div>
     </div>
   );
 }

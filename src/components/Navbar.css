@@ -1,7 +1,6 @@
 .navbar {
   position: relative;
   display: flex;
- 
 }
 
 .navbar .blue-background {
@@ -24,11 +23,10 @@
   top: 11px;
   left: 92px;
   position: absolute;
-  justify-content: space-between;
 }
 
 .navbar nav a.brand {
-  margin-right: 0px auto;
+  margin-right: auto;
   text-decoration: none;
   color: #64fbd3;
   font-weight: 800px;
@@ -36,7 +34,8 @@
   font-size: 20px;
 }
 .navbar nav a.link {
-  margin: 60px;
   text-decoration: none;
   color: #193498;
+  margin: 0px 60px;
+  display: inline;
 }

@@ -45,11 +45,21 @@ function Hero() {
       />
 
       <div className="socials">
-        <img src="images/github.svg" alt="github icon" />
-        <img src="images/linkedin.svg" alt="linked icon" />
-        <img src="images/facebook.svg" alt="facebook icon" />
-        <img src="images/twitter.svg" alt="twitter icon" />
-        <img src="images/instagram.svg" alt="instagram icon" />
+        <a className="icon-link" href="">
+          <img src="images/github.svg" alt="github icon" />
+        </a>
+        <a className="icon-link" href="">
+          <img src="images/linkedin.svg" alt="linked icon" />
+        </a>
+        <a className="icon-link" href="">
+          <img src="images/facebook.svg" alt="facebook icon" />
+        </a>
+        <a className="icon-link" href="">
+          <img src="images/twitter.svg" alt="twitter icon" />
+        </a>
+        <a className="icon-link" href="">
+          <img src="images/instagram.svg" alt="instagram icon" />
+        </a>
       </div>
       <img className="dot1" src="images/dot.svg" alt="dot pattern" />
       <img className="dot2" src="images/dot.svg" alt="dot pattern" />

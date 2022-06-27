@@ -3,7 +3,7 @@ import "./Works.css";
 
 function Works() {
   return (
-    <div className="work">
+    <div className="work" id="work">
       <div className="content">
         <div className="container-one">
           <h1>Frontend Development</h1>

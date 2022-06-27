@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /* base styles */
 html,
 body,
@@ -27,4 +31,18 @@ h2,
 h3,
 p {
   margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #193498;
+  border-radius: 5px;
+  height: 50px;
 }
