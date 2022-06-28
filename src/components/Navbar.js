@@ -4,14 +4,11 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <div className="navbar">
-      <div className="blue-background"></div>
-      <div className="green-background"></div>
-
       <nav>
         <NavLink className="brand" exact to="/">
           <h1>nelly</h1>
         </NavLink>
-        <div>
+        <div className="link-box">
           <NavLink className="link" exact to="/about">
             About
           </NavLink>

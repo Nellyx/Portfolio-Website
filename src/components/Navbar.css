@@ -1,18 +1,8 @@
 .navbar {
-  position: relative;
   display: flex;
-}
-
-.navbar .blue-background {
-  height: 60px;
-  width: 800px;
-  background-color: #193498;
-}
-
-.navbar .green-background {
-  background-color: #64fbd3;
-  height: 60px;
-  width: 700px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: linear-gradient(90deg, #193498 54%, #64fbd3 50%);
 }
 
 .navbar nav {
@@ -20,9 +10,6 @@
   width: 1200px;
   margin: auto;
   align-items: center;
-  top: 11px;
-  left: 92px;
-  position: absolute;
 }
 
 .navbar nav a.brand {
@@ -41,21 +28,6 @@
 }
 
 @media screen and (max-width: 576px) {
-  .navbar nav {
-    display: flex;
-    width: 400px;
-    margin: auto;
-    align-items: center;
-    top: 10px;
-    left: 30px;
-    position: absolute;
-  }
-
-  .navbar .blue-background {
-    height: 60px;
-    width: 500px;
-    background-color: #193498;
-  }
 }
 
 @media screen and (max-width: 768px) {
