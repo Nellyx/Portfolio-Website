@@ -1,7 +1,8 @@
 .hero {
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 20px;
   background: linear-gradient(90deg, #193498 54%, #64fbd3 50%);
+  padding-bottom: 100px;
 }
 
 .hero .flex-content {
@@ -9,14 +10,54 @@
   margin: auto;
   display: flex;
 }
+
+/* text */
+
 .hero .flex-content .text {
   width: 50%;
 }
-
-.her0 .flex-content .pattern-div {
-  width: 50%;
+.hero .flex-content .text h1 {
+  color: #64fbd3;
+  font-size: 64px;
+  margin-top: 43px;
+  font-family: SF UI Display;
+  width: 100px;
+  margin-left: 31px;
+  line-height: 64px;
+}
+.hero .flex-content .text p {
+  color: #64fbd3;
+  font-size: 18px;
+  margin-top: 10px;
+  font-family: SF UI Display;
+  width: 468px;
+  margin-left: 31px;
+  line-height: 24px;
+  font-weight: 500;
 }
 
+.hero .flex-content .text button {
+  padding: 16px 30px;
+  margin-left: 31px;
+  margin-top: 20px;
+  color: #64fbd3;
+  border: #64fbd3 1px solid;
+  font-size: 14px;
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+/* pattern-div */
+.hero .flex-content .pattern-div {
+  width: 50%;
+}
+/* .hero .flex-content .pattern-div .frame-box {
+  height: 40px;
+  width: 40px;
+  border: 5px solid white;
+  background: transparent;
+} */
+
 .hero .flex-content .pattern-div .avatar {
-  width: 15%;
+  width: 35%;
 }

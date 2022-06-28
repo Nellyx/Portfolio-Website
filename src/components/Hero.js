@@ -16,6 +16,8 @@ function Hero() {
         </div>
 
         <div className="pattern-div">
+          <div className="frame-box"></div>
+
           <img className="avatar" src="/images/avatar.png" alt="avatar" />
           <img className="frame1" src="/images/Frame 20.svg" alt="frame" />
           <img
