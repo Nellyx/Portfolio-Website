@@ -39,3 +39,33 @@
   margin: 0px 60px;
   display: inline;
 }
+
+@media screen and (max-width: 576px) {
+  .navbar nav {
+    display: flex;
+    width: 400px;
+    margin: auto;
+    align-items: center;
+    top: 10px;
+    left: 30px;
+    position: absolute;
+  }
+
+  .navbar .blue-background {
+    height: 60px;
+    width: 500px;
+    background-color: #193498;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 1440px) {
+}
