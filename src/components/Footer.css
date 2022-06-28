@@ -69,17 +69,3 @@
 
 
 
-
-
-.hero .socials {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  bottom: 43px;
-  right: 117px;
-}
-
-.hero .socials img {
-  width: 80%;
-  margin: 10px 0px;
-}
