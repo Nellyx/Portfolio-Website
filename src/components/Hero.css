@@ -142,12 +142,13 @@
 
 .hero .frame-box {
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 238px;
+  height: 300px;
   background-color: transparent;
-
-  top: 30px;
-  right: 30px;
+  border: 8px solid white;
+  top: 69px;
+  right: 473px;
+  border-radius: 4px;
 }
 
 /* Icon rotation */
@@ -164,5 +165,279 @@
   100% {
     transform: rotate(0);
     opacity: 1;
+  }
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1200px) {
+  .hero .flex-content {
+    max-width: 1050px;
+    margin: auto;
+    display: flex;
+  }
+
+  .hero .frame-box {
+    position: absolute;
+    width: 238px;
+    height: 278px;
+    background-color: transparent;
+    border: 8px solid white;
+    top: 49px;
+    right: 417px;
+    border-radius: 4px;
+  }
+
+  .hero .tray-pattern2 {
+    position: absolute;
+    top: 150px;
+    left: 412px;
+    width: 14%;
+  }
+
+  .hero .triangle-pattern {
+    position: absolute;
+    top: 28px;
+    right: 220px;
+    width: 9%;
+  }
+
+  .hero .blue-pattern {
+    position: absolute;
+    top: 19px;
+    right: 80px;
+    width: 9%;
+  }
+  .hero .tray-pattern {
+    position: absolute;
+    top: 386px;
+    left: 110px;
+    width: 14%;
+  }
+
+  .hero .dot3 {
+    position: absolute;
+    top: 10px;
+    right: 510px;
+  }
+
+  .hero .dot2 {
+    position: absolute;
+    top: 460px;
+    right: 503px;
+  }
+
+  .hero .blue-pattern2 {
+    position: absolute;
+    top: 395px;
+    right: 340px;
+    width: 9%;
+  }
+
+  .hero .frame2 {
+    position: absolute;
+    top: 406px;
+    left: 350px;
+  }
+
+  .hero .frame1 {
+    position: absolute;
+    top: 10px;
+    left: 401px;
+  }
+
+  .hero .flex-content .text p {
+    color: #64fbd3;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: SF UI Display;
+    width: 428px;
+    margin-left: 31px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+
+  .hero .socials img {
+    width: 70%;
+    margin: 10px 0px;
+  }
+
+  .hero .socials {
+    top: 216px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .hero .flex-content {
+    max-width: 892px;
+    margin: auto;
+    display: flex;
+  }
+
+  .hero .frame-box {
+    position: absolute;
+    width: 208px;
+    height: 238px;
+    background-color: transparent;
+    border: 8px solid white;
+    top: 80px;
+    right: 349px;
+    border-radius: 4px;
+  }
+
+  .hero .tray-pattern2 {
+    position: absolute;
+    top: 140px;
+    left: 367px;
+    width: 12%;
+  }
+
+  .hero .flex-content .text p {
+    color: #64fbd3;
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: SF UI Display;
+    width: 338px;
+    margin-left: 31px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+
+  .hero .socials {
+    top: 217px;
+    right: 91px;
+  }
+
+  .hero .flex-content .pattern-div .avatar {
+    display: inline-block;
+    width: 62%;
+    margin-left: -95px;
+    margin-top: 55px;
+  }
+
+  .hero .dot1 {
+    position: absolute;
+    top: 60px;
+    right: 70px;
+  }
+
+  .hero .dot4 {
+    position: absolute;
+    top: 430px;
+    right: 60px;
+  }
+
+  .hero .dot3 {
+    position: absolute;
+    top: 40px;
+    right: 400px;
+  }
+
+  .hero .dot2 {
+    position: absolute;
+    top: 460px;
+    right: 403px;
+  }
+
+  .hero .flex-content .text h1 {
+    color: #64fbd3;
+    font-size: 61px;
+    margin-top: 43px;
+    font-family: SF UI Display;
+    width: 100px;
+    margin-left: 31px;
+    line-height: 64px;
+    font-weight: 800;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    padding-top: 40px;
+    padding-bottom: 140px;
+    background: linear-gradient(90deg, #193498 100%, #64fbd3 50%);
+    position: relative;
+  }
+
+  .hero .flex-content .text {
+    width: 100%;
+    margin: auto;
+  }
+
+  .hero .flex-content .text p {
+    color: #64fbd3;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: SF UI Display;
+    width: 100%;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin: auto;
+  }
+
+  .hero .flex-content {
+    max-width: 668px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero .flex-content .text h1 {
+    color: #64fbd3;
+    font-size: 55px;
+    width: 100%;
+    margin-top: 40px;
+    font-family: SF UI Display;
+    text-align: center;
+    line-height: 59px;
+    font-weight: 800;
+  }
+
+  .hero .frame-box {
+    position: absolute;
+    width: 198px;
+    height: 208px;
+    background-color: transparent;
+    border: 8px solid white;
+    top: 57px;
+    right: 279px;
+    border-radius: 4px;
+    visibility: hidden;
+  }
+  .hero .flex-content .pattern-div .avatar {
+    display: inline-block;
+    width: 62%;
+    margin-left: -95px;
+    margin-top: 55px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero .flex-content {
+    max-width: 476px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero .frame-box {
+    position: absolute;
+    width: 198px;
+    height: 208px;
+    background-color: transparent;
+    border: 8px solid white;
+    top: 57px;
+    right: 279px;
+    border-radius: 4px;
+    visibility: visible;
+  }
+  .hero .flex-content .pattern-div .avatar {
+    display: inline-block;
+    width: 62%;
+    margin-left: -95px;
+    margin-top: 55px;
+    visibility: visible;
   }
 }
