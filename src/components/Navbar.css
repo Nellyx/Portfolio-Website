@@ -123,6 +123,29 @@
   }
 }
 
+@media screen and (max-width: 428px) {
+  .navbar nav {
+    display: flex;
+    width: 358px;
+    margin: auto;
+    align-items: center;
+  }
+
+  .navbar nav a.link {
+    text-decoration: none;
+    color: #193498;
+    margin: 0px 25px;
+    display: inline;
+    visibility: hidden;
+  }
+
+  .navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: linear-gradient(90deg, #193498 100%, #64fbd3 50%);
+  }
+}
+
 @media screen and (max-width: 360px) {
   .navbar nav {
     display: flex;

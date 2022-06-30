@@ -59,14 +59,14 @@
 
 .hero .flex-content .pattern-div .avatar-box {
   width: 62%;
+  margin-left: -95px;
+  margin-top: 30px;
 }
 
 .hero .flex-content .pattern-div .avatar {
   display: inline-block;
   width: 100%;
   height: 100%;
-  margin-left: -95px;
-  margin-top: 30px;
 }
 
 /* socials */
@@ -131,6 +131,13 @@
 }
 
 @media screen and (max-width: 992px) {
+  .hero {
+    padding-top: 40px;
+    padding-bottom: 100px;
+    background: linear-gradient(90deg, #193498 54%, #64fbd3 50%);
+    position: relative;
+  }
+
   .hero .flex-content {
     max-width: 892px;
     margin: auto;
@@ -149,20 +156,20 @@
   }
 
   .hero .socials {
-    top: 217px;
+    top: 176px;
     right: 91px;
   }
 
   .hero .flex-content .pattern-div .avatar-box {
     width: 62%;
+    margin-left: -95px;
+    margin-top: 30px;
   }
 
-  .hero .flex-content .pattern-div .avatar {
+  .hero .flex-content .pattern-div .avatar2 {
     display: inline-block;
     width: 100%;
     height: 100%;
-    margin-left: -95px;
-    margin-top: 30px;
   }
 
   .hero .flex-content .text h1 {
@@ -238,21 +245,26 @@
   }
 
   .hero .flex-content .pattern-div .avatar-box {
-    width: 62%;
-    margin: 20px 38%;
+    width: 57%;
+    margin: 34px 24%;
   }
 
   .hero .flex-content .pattern-div .avatar {
-    display: inline-block;
     width: 100%;
     height: 100%;
+  }
+
+  .hero .socials {
+    top: 176px;
+    right: 91px;
+    visibility: hidden;
   }
 }
 
 @media screen and (max-width: 576px) {
   .hero {
     padding-top: 40px;
-    padding-bottom: 80px;
+    padding-bottom: 30px;
     background: linear-gradient(90deg, #193498 100%, #64fbd3 50%);
     position: relative;
   }
@@ -283,6 +295,7 @@
   .hero .flex-content .text h1 {
     color: #64fbd3;
     font-size: 46px;
+    margin-left: 0px;
     width: 100%;
     margin-top: 40px;
     font-family: SF UI Display;
@@ -310,13 +323,176 @@
   }
 
   .hero .flex-content .pattern-div .avatar-box {
-    width: 62%;
-    margin: 30px 46%;
+    width: 58%;
+    margin: 30px 27%;
   }
 
   .hero .flex-content .pattern-div .avatar {
     display: inline-block;
     width: 100%;
     height: 100%;
+  }
+
+  .hero .socials {
+    top: 176px;
+    right: 91px;
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .hero {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background: linear-gradient(90deg, #193498 100%, #64fbd3 50%);
+    position: relative;
+  }
+
+  .hero .flex-content .text {
+    width: 100%;
+    margin: auto;
+  }
+
+  .hero .flex-content .text p {
+    color: #64fbd3;
+    font-size: 15px;
+    font-family: SF UI Display;
+    width: 100%;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin: 11px auto;
+  }
+
+  .hero .flex-content {
+    max-width: 358px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero .flex-content .text h1 {
+    color: #64fbd3;
+    font-size: 38px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 40px;
+    font-family: SF UI Display;
+    text-align: center;
+    line-height: 59px;
+    font-weight: 800;
+  }
+
+  .hero .flex-content .text .button-box {
+    width: fit-content;
+    margin: auto;
+  }
+
+  .hero .flex-content .text button {
+    padding: 16px 30px;
+    color: #64fbd3;
+    border: #64fbd3 1px solid;
+    font-size: 14px;
+    background-color: transparent;
+    border-radius: 4px;
+    text-align: center;
+  }
+  .hero .flex-content .pattern-div {
+    width: 100%;
+  }
+
+  .hero .flex-content .pattern-div .avatar-box {
+    width: 58%;
+    margin: 30px 27%;
+  }
+
+  .hero .flex-content .pattern-div .avatar {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero .socials {
+    top: 176px;
+    right: 91px;
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .hero {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    background: linear-gradient(90deg, #193498 100%, #64fbd3 50%);
+    position: relative;
+  }
+
+  .hero .flex-content .text {
+    width: 100%;
+    margin: auto;
+  }
+
+  .hero .flex-content .text p {
+    color: #64fbd3;
+    font-size: 15px;
+    font-family: SF UI Display;
+    width: 100%;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin: 3px auto;
+  }
+
+  .hero .flex-content {
+    max-width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero .flex-content .text h1 {
+    color: #64fbd3;
+    font-size: 30px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 12px;
+    font-family: SF UI Display;
+    text-align: center;
+    line-height: 59px;
+    font-weight: 800;
+  }
+
+  .hero .flex-content .text .button-box {
+    width: fit-content;
+    margin: auto;
+  }
+
+  .hero .flex-content .text button {
+    padding: 16px 30px;
+    color: #64fbd3;
+    border: #64fbd3 1px solid;
+    font-size: 14px;
+    background-color: transparent;
+    border-radius: 4px;
+    text-align: center;
+  }
+  .hero .flex-content .pattern-div {
+    width: 100%;
+  }
+
+  .hero .flex-content .pattern-div .avatar-box {
+    width: 58%;
+    margin: 30px 27%;
+  }
+
+  .hero .flex-content .pattern-div .avatar {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero .socials {
+    top: 176px;
+    right: 91px;
+    visibility: hidden;
   }
 }

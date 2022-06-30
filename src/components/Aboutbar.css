@@ -94,3 +94,182 @@
   border-radius: 4px;
   color: white;
 }
+
+/* MQ */
+
+@media screen and (max-width: 1200px) {
+  .aboutbar .about-content {
+    display: flex;
+    max-width: 1050px;
+    margin: auto;
+  }
+
+  .aboutbar .about-content .right-text .my-skills {
+    margin-left: 37px;
+  }
+
+  .aboutbar .about-content .left-text .main {
+    width: 512px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #333;
+    text-align: justify;
+    margin-top: 10px;
+  }
+
+  .aboutbar .about-content .right-text .main {
+    width: 512px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #333;
+    text-align: justify;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .aboutbar .about-content {
+    display: flex;
+    max-width: 892px;
+    margin: auto;
+  }
+
+  .aboutbar .about-content .right-text .my-skills {
+    margin-left: 43px;
+  }
+
+  .aboutbar .about-content .left-text .main {
+    width: 410px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #333;
+    text-align: justify;
+    margin-top: 10px;
+  }
+
+  .aboutbar .about-content .right-text .main {
+    width: 410px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #333;
+    text-align: justify;
+    margin-top: 10px;
+  }
+
+  .aboutbar .about-content .right-text .techbox .tech-text {
+    width: 410px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #333;
+    text-align: justify;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aboutbar .about-content {
+    display: flex;
+    max-width: 668px;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .aboutbar .about-content .left-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .aboutbar .about-content .left-text .main {
+    width: 100%;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #333;
+    text-align: center;
+    margin-top: 10px auto;
+  }
+
+  .aboutbar .about-content .right-text .techbox .tech-text {
+    width: 100%;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .aboutbar .about-content .right-text .techbox .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin-top: 38px;
+  }
+
+  .aboutbar .about-content .left-text h1 {
+    width: 100%;
+    font-weight: 700;
+    font-size: 28px;
+    color: #221042;
+    margin-top: 20px;
+  }
+
+  .aboutbar .about-content .right-text {
+    text-align: center;
+  }
+
+  .aboutbar .about-content .right-text .my-skills {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  .aboutbar .about-content .right-text .my-skills h2 {
+    width: 100%;
+    font-weight: 700;
+    font-size: 28px;
+    color: #221042;
+  }
+
+  .aboutbar .about-content .right-text .main {
+    width: 100%;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .aboutbar .about-content {
+    display: flex;
+    max-width: 476px;
+    margin: auto;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .aboutbar .about-content {
+    display: flex;
+    max-width: 358px;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .aboutbar .about-content .left-text .main {
+    width: 100%;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #333;
+    text-align: justify;
+    margin-top: 10px auto;
+  }
+}
