@@ -12,12 +12,16 @@ function Hero() {
             I build modern and scalable user interfaces using modern frontend
             web technologies
           </p>
-          <button>Hire Me</button>
+          <div className="button-box">
+            <button>Hire Me</button>
+          </div>
         </div>
 
         <div className="pattern-div">
           <div className="frame-box"></div>
-          <img className="avatar" src="/images/avatar.png" alt="avatar" />
+          <div className="avatar-box">
+            <img className="avatar" src="/images/avatar.png" alt="avatar" />
+          </div>
         </div>
       </div>
 

@@ -37,6 +37,10 @@
   font-weight: 500;
 }
 
+.hero .flex-content .text .button-box {
+  width: fit-content;
+}
+
 .hero .flex-content .text button {
   padding: 16px 30px;
   margin-left: 31px;
@@ -53,9 +57,14 @@
   width: 50%;
 }
 
+.hero .flex-content .pattern-div .avatar-box {
+  width: 62%;
+}
+
 .hero .flex-content .pattern-div .avatar {
   display: inline-block;
-  width: 62%;
+  width: 100%;
+  height: 100%;
   margin-left: -95px;
   margin-top: 30px;
 }
@@ -280,7 +289,7 @@
     height: 238px;
     background-color: transparent;
     border: 8px solid white;
-    top: 80px;
+    top: 54px;
     right: 349px;
     border-radius: 4px;
   }
@@ -308,11 +317,16 @@
     right: 91px;
   }
 
+  .hero .flex-content .pattern-div .avatar-box {
+    width: 62%;
+  }
+
   .hero .flex-content .pattern-div .avatar {
     display: inline-block;
-    width: 62%;
+    width: 100%;
+    height: 100%;
     margin-left: -95px;
-    margin-top: 55px;
+    margin-top: 30px;
   }
 
   .hero .dot1 {
@@ -354,7 +368,7 @@
 @media screen and (max-width: 768px) {
   .hero {
     padding-top: 40px;
-    padding-bottom: 140px;
+    padding-bottom: 80px;
     background: linear-gradient(90deg, #193498 100%, #64fbd3 50%);
     position: relative;
   }
@@ -367,13 +381,12 @@
   .hero .flex-content .text p {
     color: #64fbd3;
     font-size: 18px;
-    margin-top: 10px;
     font-family: SF UI Display;
-    width: 100%;
+    width: 77%;
     line-height: 24px;
     font-weight: 500;
     text-align: center;
-    margin: auto;
+    margin: 20px auto;
   }
 
   .hero .flex-content {
@@ -396,25 +409,96 @@
 
   .hero .frame-box {
     position: absolute;
-    width: 198px;
-    height: 208px;
+    width: 238px;
+    height: 338px;
     background-color: transparent;
     border: 8px solid white;
-    top: 57px;
-    right: 279px;
+    top: 337px;
+    right: 243px;
     border-radius: 4px;
-    visibility: hidden;
   }
+
+  .hero .tray-pattern2 {
+    position: absolute;
+    top: 215px;
+    left: 107px;
+    width: 12%;
+  }
+
+  .hero .flex-content .text .button-box {
+    width: fit-content;
+    margin: auto;
+  }
+
+  .hero .flex-content .text button {
+    padding: 16px 30px;
+    color: #64fbd3;
+    border: #64fbd3 1px solid;
+    font-size: 14px;
+    background-color: transparent;
+    border-radius: 4px;
+    text-align: center;
+  }
+  .hero .flex-content .pattern-div {
+    width: 100%;
+  }
+
+  .hero .flex-content .pattern-div .avatar-box {
+    width: 62%;
+    margin: 20px 38%;
+  }
+
   .hero .flex-content .pattern-div .avatar {
     display: inline-block;
-    width: 62%;
-    margin-left: -95px;
-    margin-top: 55px;
-    margin: auto;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero .frame2 {
+    position: absolute;
+    top: 683px;
+    left: 550px;
+  }
+
+  .hero .blue-pattern2 {
+    position: absolute;
+    top: 395px;
+    right: 340px;
+    visibility: hidden;
+  }
+
+  .hero .tray-pattern {
+    position: absolute;
+    top: 386px;
+    left: 590px;
+    width: 14%;
   }
 }
 
 @media screen and (max-width: 576px) {
+  .hero {
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background: linear-gradient(90deg, #193498 100%, #64fbd3 50%);
+    position: relative;
+  }
+
+  .hero .flex-content .text {
+    width: 100%;
+    margin: auto;
+  }
+
+  .hero .flex-content .text p {
+    color: #64fbd3;
+    font-size: 18px;
+    font-family: SF UI Display;
+    width: 77%;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px auto;
+  }
+
   .hero .flex-content {
     max-width: 476px;
     margin: auto;
@@ -422,22 +506,81 @@
     flex-direction: column;
   }
 
+  .hero .flex-content .text h1 {
+    color: #64fbd3;
+    font-size: 46px;
+    width: 100%;
+    margin-top: 40px;
+    font-family: SF UI Display;
+    text-align: center;
+    line-height: 59px;
+    font-weight: 800;
+  }
+
   .hero .frame-box {
     position: absolute;
-    width: 198px;
-    height: 208px;
+    width: 238px;
+    height: 338px;
     background-color: transparent;
     border: 8px solid white;
-    top: 57px;
-    right: 279px;
+    top: 337px;
+    right: 243px;
     border-radius: 4px;
-    visibility: visible;
   }
+
+  .hero .tray-pattern2 {
+    position: absolute;
+    top: 215px;
+    left: 107px;
+    width: 12%;
+  }
+
+  .hero .flex-content .text .button-box {
+    width: fit-content;
+    margin: auto;
+  }
+
+  .hero .flex-content .text button {
+    padding: 16px 30px;
+    color: #64fbd3;
+    border: #64fbd3 1px solid;
+    font-size: 14px;
+    background-color: transparent;
+    border-radius: 4px;
+    text-align: center;
+  }
+  .hero .flex-content .pattern-div {
+    width: 100%;
+  }
+
+  .hero .flex-content .pattern-div .avatar-box {
+    width: 62%;
+    margin: 20px 38%;
+  }
+
   .hero .flex-content .pattern-div .avatar {
     display: inline-block;
-    width: 62%;
-    margin-left: -95px;
-    margin-top: 55px;
-    visibility: visible;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero .frame2 {
+    position: absolute;
+    top: 683px;
+    left: 550px;
+  }
+
+  .hero .blue-pattern2 {
+    position: absolute;
+    top: 395px;
+    right: 340px;
+    visibility: hidden;
+  }
+
+  .hero .tray-pattern {
+    position: absolute;
+    top: 386px;
+    left: 590px;
+    width: 14%;
   }
 }
