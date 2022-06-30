@@ -83,85 +83,8 @@
   width: 80%;
   margin: 10px 0px;
 }
-/* patterns and dots */
-
-.hero .frame1 {
-  position: absolute;
-  top: 60px;
-  left: 460px;
-}
-
-.hero .frame2 {
-  position: absolute;
-  top: 436px;
-  left: 350px;
-}
-
-.hero .tray-pattern {
-  position: absolute;
-  top: 386px;
-  left: 110px;
-}
-
-.hero .tray-pattern2 {
-  position: absolute;
-  top: 150px;
-  left: 510px;
-}
-
-.hero .blue-pattern {
-  position: absolute;
-  top: 25px;
-  right: 160px;
-}
-
-.hero .blue-pattern2 {
-  position: absolute;
-  top: 425px;
-  right: 400px;
-}
-
-.hero .dot1 {
-  position: absolute;
-  top: 90px;
-  right: 30px;
-}
-.hero .dot2 {
-  position: absolute;
-  top: 460px;
-  right: 550px;
-}
-.hero .dot3 {
-  position: absolute;
-  top: 10px;
-  right: 550px;
-}
-.hero .dot4 {
-  position: absolute;
-  top: 460px;
-  right: 60px;
-}
-.hero .triangle-pattern {
-  position: absolute;
-  top: 30px;
-  right: 330px;
-}
-
-/* frame box */
-
-.hero .frame-box {
-  position: absolute;
-  width: 238px;
-  height: 300px;
-  background-color: transparent;
-  border: 8px solid white;
-  top: 69px;
-  right: 473px;
-  border-radius: 4px;
-}
 
 /* Icon rotation */
-
 .hero .icon-link:hover {
   animation: rotate-in-center 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
@@ -184,75 +107,6 @@
     max-width: 1050px;
     margin: auto;
     display: flex;
-  }
-
-  .hero .frame-box {
-    position: absolute;
-    width: 238px;
-    height: 278px;
-    background-color: transparent;
-    border: 8px solid white;
-    top: 49px;
-    right: 417px;
-    border-radius: 4px;
-  }
-
-  .hero .tray-pattern2 {
-    position: absolute;
-    top: 150px;
-    left: 412px;
-    width: 14%;
-  }
-
-  .hero .triangle-pattern {
-    position: absolute;
-    top: 28px;
-    right: 220px;
-    width: 9%;
-  }
-
-  .hero .blue-pattern {
-    position: absolute;
-    top: 19px;
-    right: 80px;
-    width: 9%;
-  }
-  .hero .tray-pattern {
-    position: absolute;
-    top: 386px;
-    left: 110px;
-    width: 14%;
-  }
-
-  .hero .dot3 {
-    position: absolute;
-    top: 10px;
-    right: 510px;
-  }
-
-  .hero .dot2 {
-    position: absolute;
-    top: 460px;
-    right: 503px;
-  }
-
-  .hero .blue-pattern2 {
-    position: absolute;
-    top: 395px;
-    right: 340px;
-    width: 9%;
-  }
-
-  .hero .frame2 {
-    position: absolute;
-    top: 406px;
-    left: 350px;
-  }
-
-  .hero .frame1 {
-    position: absolute;
-    top: 10px;
-    left: 401px;
   }
 
   .hero .flex-content .text p {
@@ -283,24 +137,6 @@
     display: flex;
   }
 
-  .hero .frame-box {
-    position: absolute;
-    width: 208px;
-    height: 238px;
-    background-color: transparent;
-    border: 8px solid white;
-    top: 54px;
-    right: 349px;
-    border-radius: 4px;
-  }
-
-  .hero .tray-pattern2 {
-    position: absolute;
-    top: 140px;
-    left: 367px;
-    width: 12%;
-  }
-
   .hero .flex-content .text p {
     color: #64fbd3;
     font-size: 16px;
@@ -327,30 +163,6 @@
     height: 100%;
     margin-left: -95px;
     margin-top: 30px;
-  }
-
-  .hero .dot1 {
-    position: absolute;
-    top: 60px;
-    right: 70px;
-  }
-
-  .hero .dot4 {
-    position: absolute;
-    top: 430px;
-    right: 60px;
-  }
-
-  .hero .dot3 {
-    position: absolute;
-    top: 40px;
-    right: 400px;
-  }
-
-  .hero .dot2 {
-    position: absolute;
-    top: 460px;
-    right: 403px;
   }
 
   .hero .flex-content .text h1 {
@@ -407,24 +219,6 @@
     font-weight: 800;
   }
 
-  .hero .frame-box {
-    position: absolute;
-    width: 238px;
-    height: 338px;
-    background-color: transparent;
-    border: 8px solid white;
-    top: 337px;
-    right: 243px;
-    border-radius: 4px;
-  }
-
-  .hero .tray-pattern2 {
-    position: absolute;
-    top: 215px;
-    left: 107px;
-    width: 12%;
-  }
-
   .hero .flex-content .text .button-box {
     width: fit-content;
     margin: auto;
@@ -452,26 +246,6 @@
     display: inline-block;
     width: 100%;
     height: 100%;
-  }
-
-  .hero .frame2 {
-    position: absolute;
-    top: 683px;
-    left: 550px;
-  }
-
-  .hero .blue-pattern2 {
-    position: absolute;
-    top: 395px;
-    right: 340px;
-    visibility: hidden;
-  }
-
-  .hero .tray-pattern {
-    position: absolute;
-    top: 386px;
-    left: 590px;
-    width: 14%;
   }
 }
 
@@ -496,7 +270,7 @@
     line-height: 24px;
     font-weight: 500;
     text-align: center;
-    margin: 20px auto;
+    margin: 11px auto;
   }
 
   .hero .flex-content {
@@ -515,24 +289,6 @@
     text-align: center;
     line-height: 59px;
     font-weight: 800;
-  }
-
-  .hero .frame-box {
-    position: absolute;
-    width: 238px;
-    height: 338px;
-    background-color: transparent;
-    border: 8px solid white;
-    top: 337px;
-    right: 243px;
-    border-radius: 4px;
-  }
-
-  .hero .tray-pattern2 {
-    position: absolute;
-    top: 215px;
-    left: 107px;
-    width: 12%;
   }
 
   .hero .flex-content .text .button-box {
@@ -555,32 +311,12 @@
 
   .hero .flex-content .pattern-div .avatar-box {
     width: 62%;
-    margin: 20px 38%;
+    margin: 30px 46%;
   }
 
   .hero .flex-content .pattern-div .avatar {
     display: inline-block;
     width: 100%;
     height: 100%;
-  }
-
-  .hero .frame2 {
-    position: absolute;
-    top: 683px;
-    left: 550px;
-  }
-
-  .hero .blue-pattern2 {
-    position: absolute;
-    top: 395px;
-    right: 340px;
-    visibility: hidden;
-  }
-
-  .hero .tray-pattern {
-    position: absolute;
-    top: 386px;
-    left: 590px;
-    width: 14%;
   }
 }
