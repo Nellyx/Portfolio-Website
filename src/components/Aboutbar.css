@@ -179,69 +179,49 @@
     flex-direction: column;
   }
 
-  .aboutbar .about-content .left-text {
-    width: 100%;
-    text-align: center;
+  .aboutbar .about-content .left-text .left-margin {
+    margin-left: 85px;
   }
 
   .aboutbar .about-content .left-text .main {
-    width: 100%;
+    width: 530px;
     font-size: 17px;
     font-weight: 500;
     line-height: 32px;
     color: #333;
-    text-align: center;
-    margin-top: 10px auto;
-  }
-
-  .aboutbar .about-content .right-text .techbox .tech-text {
-    width: 100%;
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 32px;
-    color: #333;
-    text-align: center;
+    text-align: justify;
     margin-top: 10px;
   }
 
-  .aboutbar .about-content .right-text .techbox .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 15px;
-    margin-top: 38px;
-  }
-
-  .aboutbar .about-content .left-text h1 {
-    width: 100%;
-    font-weight: 700;
-    font-size: 28px;
-    color: #221042;
-    margin-top: 20px;
+  .aboutbar .about-content .right-text .right-margin {
+    margin-left: 85px;
   }
 
   .aboutbar .about-content .right-text {
-    text-align: center;
+    padding-top: 40px;
   }
 
   .aboutbar .about-content .right-text .my-skills {
     margin-left: 0px;
-    margin-top: 20px;
-  }
-
-  .aboutbar .about-content .right-text .my-skills h2 {
-    width: 100%;
-    font-weight: 700;
-    font-size: 28px;
-    color: #221042;
   }
 
   .aboutbar .about-content .right-text .main {
-    width: 100%;
+    width: 530px;
     font-size: 17px;
     font-weight: 500;
     line-height: 32px;
     color: #333;
-    text-align: center;
+    text-align: justify;
+    margin-top: 10px;
+  }
+
+  .aboutbar .about-content .right-text .techbox .tech-text {
+    width: 530px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #333;
+    text-align: justify;
     margin-top: 10px;
   }
 }
@@ -253,6 +233,44 @@
     margin: auto;
     flex-direction: column;
   }
+
+  .aboutbar .about-content .left-text .left-margin {
+    margin-left: 41px;
+  }
+
+  .aboutbar .about-content .left-text .main {
+    width: 410px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #333;
+    text-align: justify;
+    margin-top: 10px;
+  }
+
+  .aboutbar .about-content .right-text .right-margin {
+    margin-left: 41px;
+  }
+
+  .aboutbar .about-content .right-text .main {
+    width: 410px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #333;
+    text-align: justify;
+    margin-top: 10px;
+  }
+
+  .aboutbar .about-content .right-text .techbox .tech-text {
+    width: 410px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #333;
+    text-align: justify;
+    margin-top: 10px;
+  }
 }
 
 @media screen and (max-width: 428px) {
@@ -263,13 +281,17 @@
     flex-direction: column;
   }
 
+  .aboutbar .about-content .left-text .left-margin {
+    margin-left: 35px;
+  }
+
   .aboutbar .about-content .left-text .main {
-    width: 100%;
-    font-size: 17px;
+    width: 311px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 32px;
     color: #333;
     text-align: justify;
-    margin-top: 10px auto;
+    margin-top: 10px;
   }
 }

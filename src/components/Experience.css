@@ -1,7 +1,7 @@
 .experience {
   background-color: #193498;
   padding-top: 60px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .experience .flex {
@@ -10,16 +10,15 @@
   margin: auto;
 }
 
-.experience .header-text {
+.experience .text .header-text {
   color: #64fbd3;
   font-family: SF UI Display;
   font-size: 51px;
 }
-
 .experience .paragraph {
   margin-top: 20px;
   color: #64fbd3;
-  width: 429px;
+  width: 471px;
   text-align: justify;
   font-size: 17px;
   font-weight: 400;
@@ -37,9 +36,52 @@
   align-items: center;
   display: flex;
 }
-.experience .text button img {
-  fill: #64fbd3;
-  width: 15%;
-  color: #64fbd3;
-  margin-left: 2px;
+
+.experience .flex .box {
+  margin-right: 20px;
+}
+
+.experience .flex .image-box .vector-image {
+  height: 100%;
+  width: 100%;
+}
+
+.experience .flex .image-box {
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .experience .flex {
+    display: flex;
+    max-width: 1050px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 992px) {
+  .experience .flex {
+    display: flex;
+    max-width: 892px;
+    margin: auto;
+  }
+
+  .experience .paragraph {
+    margin-top: 20px;
+    color: #64fbd3;
+    width: 392px;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: SF UI Display;
+  }
+
+  .experience .flex .box {
+    margin-right: 0px;
+  }
+
+  .experience .text .header-text {
+    color: #64fbd3;
+    font-family: SF UI Display;
+    font-size: 42px;
+  }
 }

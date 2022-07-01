@@ -23,12 +23,12 @@ function Experience() {
             Hub, where i built different user interfaces using modern web
             technologies
           </p>
-          <button>
-            Download Resume
-          </button>
+          <button>Download Resume</button>
         </div>
-        <div>
-          <img src="/images/vector.svg" alt="" />
+        <div className="box">
+          <div className="image-box">
+            <img className="vector-image" src="/images/vector.svg" alt="" />
+          </div>
         </div>
       </div>
     </div>
