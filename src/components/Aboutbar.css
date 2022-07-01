@@ -301,4 +301,86 @@
     font-size: 28px;
     color: #221042;
   }
+
+  .aboutbar .about-content .right-text .main {
+    width: 311px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #333;
+    text-align: justify;
+    margin-top: 10px;
+  }
+
+  .aboutbar .about-content .right-text .techbox .tech-text {
+    width: 311px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #333;
+    text-align: justify;
+    margin-top: 10px;
+  }
+
+  .aboutbar .about-content .left-text h1 {
+    width: 404px;
+    font-weight: 700;
+    font-size: 28px;
+    color: #221042;
+    margin-top: 13px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .aboutbar .about-content {
+    display: flex;
+    max-width: 300px;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .aboutbar .about-content .left-text .left-margin {
+    margin-left: 26px;
+  }
+
+  .aboutbar .about-content .left-text .main {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #333;
+    text-align: justify;
+    margin-top: 10px;
+  }
+
+  .aboutbar .about-content .right-text .right-margin {
+    margin-left: 26px;
+  }
+
+  .aboutbar .about-content .right-text .main {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #333;
+    text-align: justify;
+    margin-top: 10px;
+  }
+
+  .aboutbar .about-content .right-text .techbox .tech-text {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #333;
+    text-align: justify;
+    margin-top: 10px;
+  }
+
+  .aboutbar .about-content .right-text .techbox .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+    margin-top: 18px;
+  }
 }
