@@ -50,16 +50,112 @@
   width: 100%;
 }
 
+/* MQ */
 
+@media screen and (max-width: 1200px) {
+  .experience .flex {
+    display: flex;
+    max-width: 1050px;
+    margin: auto;
+  }
 
+  .experience .flex .box {
+    margin-right: 20px;
+    padding-top: 40px;
+  }
+}
 
+@media screen and (max-width: 992px) {
+  .experience .flex {
+    display: flex;
+    max-width: 892px;
+    margin: auto;
+  }
 
+  .experience .flex .box {
+    margin-right: 20px;
+    padding-top: 40px;
+  }
 
+  .experience .paragraph {
+    margin-top: 20px;
+    color: #64fbd3;
+    width: 414px;
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: SF UI Display;
+  }
 
+  .experience .flex .box {
+    margin-right: 20px;
+    padding-top: 73px;
+  }
+}
 
+@media screen and (max-width: 768px) {
+  .experience .flex {
+    display: flex;
+    max-width: 668px;
+    margin: auto;
+    flex-direction: column;
+  }
 
+  .experience .flex .text .left-margin {
+    margin-left: 85px;
+  }
 
+  .experience .paragraph {
+    margin-top: 20px;
+    color: #64fbd3;
+    width: 530px;
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: SF UI Display;
+  }
 
+  .experience .flex .image-box {
+    width: 80%;
+    margin-left: 58px;
+  }
+}
 
+@media screen and (max-width: 576px) {
+  .experience .flex {
+    display: flex;
+    max-width: 476px;
+    margin: auto;
+    flex-direction: column;
+  }
 
+  .experience .flex .text .left-margin {
+    margin-left: 41px;
+  }
 
+  .experience .paragraph {
+    margin-top: 20px;
+    color: #64fbd3;
+    width: 410px;
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: SF UI Display;
+  }
+
+  .experience .flex .image-box {
+    width: 80%;
+    margin-left: 45px;
+  }
+
+  .experience .flex .box {
+    margin-right: 0px;
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+}
