@@ -202,3 +202,31 @@
     margin-left: 35px;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .experience .flex {
+    display: flex;
+    max-width: 300px;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .experience .flex .text .left-margin {
+    margin-left: 26px;
+  }
+  .experience .paragraph {
+    margin-top: 20px;
+    color: #64fbd3;
+    width: 100%;
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: SF UI Display;
+  }
+
+  .experience .flex .image-box {
+    width: 76%;
+    margin-left: 26px;
+  }
+}
