@@ -1,8 +1,13 @@
 .hero {
   padding-top: 40px;
   padding-bottom: 140px;
-  background: linear-gradient(90deg, #193498 54%, #64fbd3 50%);
+  background: url("../../public/images/dot.svg") no-repeat 58% 94%,
+    url("../../public/images/dot.svg") no-repeat 70% 20%,
+    url("../../public/images/dot.svg") no-repeat 90% 20%,
+    url("../../public/images/dot.svg") no-repeat 80% 20%,
+    linear-gradient(90deg, #193498 54%, #64fbd3 50%);
   position: relative;
+  background-size: 10px 10px, 10px 10px, 10px 10px, 10px 10px, cover;
 }
 
 .hero .flex-content {

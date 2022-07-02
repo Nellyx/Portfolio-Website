@@ -12,7 +12,7 @@ function Navbar() {
           <NavLink className="link" exact to="/about">
             About
           </NavLink>
-          <NavLink className="link" to="">
+          <NavLink className="link" to="/work">
             Work
           </NavLink>
           <NavLink className="link" to="">
