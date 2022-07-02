@@ -35,11 +35,21 @@ function Footer() {
       </div>
 
       <div className="socials">
-        <img src="images/Githubgreen.svg" alt="github icon" />
-        <img src="images/linkedingreen.svg" alt="linked icon" />
-        <img src="images/facebookgreen.svg" alt="facebook icon" />
-        <img src="images/twittergreen.svg" alt="twitter icon" />
-        <img src="images/instagramgreen.svg" alt="instagram icon" />
+        <a className="icon-link" href="">
+          <img src="images/Githubgreen.svg" alt="github icon" />
+        </a>
+        <a className="icon-link" href="">
+          <img src="images/linkedingreen.svg" alt="linked icon" />
+        </a>
+        <a className="icon-link" href="">
+          <img src="images/facebookgreen.svg" alt="facebook icon" />
+        </a>
+        <a className="icon-link" href="">
+          <img src="images/twittergreen.svg" alt="twitter icon" />
+        </a>
+        <a className="icon-link" href="">
+          <img src="images/instagramgreen.svg" alt="instagram icon" />
+        </a>
       </div>
     </div>
   );
