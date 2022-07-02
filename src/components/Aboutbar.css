@@ -312,6 +312,10 @@
     margin-top: 10px;
   }
 
+  .aboutbar .about-content .right-text .right-margin {
+    margin-left: 35px;
+  }
+
   .aboutbar .about-content .right-text .techbox .tech-text {
     width: 311px;
     font-size: 17px;
@@ -319,7 +323,7 @@
     line-height: 32px;
     color: #333;
     text-align: justify;
-    margin-top: 10px;
+    margin-top: 10px; 
   }
 
   .aboutbar .about-content .left-text h1 {

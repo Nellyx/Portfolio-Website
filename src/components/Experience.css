@@ -148,7 +148,7 @@
 
   .experience .flex .image-box {
     width: 80%;
-    margin-left: 45px;
+    margin-left: 41px;
   }
 
   .experience .flex .box {
@@ -158,4 +158,47 @@
 }
 
 @media screen and (max-width: 428px) {
+  .experience .flex {
+    display: flex;
+    max-width: 358px;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .experience .flex .text .left-margin {
+    margin-left: 35px;
+  }
+
+  .experience .text .header-text {
+    color: #64fbd3;
+    font-family: SF UI Display;
+    font-size: 35px;
+  }
+
+  .experience .paragraph {
+    margin-top: 20px;
+    color: #64fbd3;
+    width: 311px;
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: SF UI Display;
+  }
+
+  .experience .text button {
+    margin-top: 13px;
+    background-color: transparent;
+    padding: 15px 12px;
+    border: 1px solid #64fbd3;
+    border-radius: 4px;
+    color: #64fbd3;
+    align-items: center;
+    display: flex;
+  }
+
+  .experience .flex .image-box {
+    width: 76%;
+    margin-left: 35px;
+  }
 }
