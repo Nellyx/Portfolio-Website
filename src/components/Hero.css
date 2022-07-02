@@ -212,7 +212,7 @@
     margin-top: 29px;
     font-family: SF UI Display;
     width: 100%;
-    margin-left: 85px;
+    margin-left: 50px;
     line-height: 74px;
     font-weight: 800;
   }
@@ -223,7 +223,7 @@
     margin-top: 10px;
     font-family: SF UI Display;
     width: 347px;
-    margin-left: 91px;
+    margin-left: 50px;
     line-height: 24px;
     font-weight: 500;
   }
@@ -231,7 +231,7 @@
   .hero .flex-content .text .button-box {
     width: -moz-fit-content;
     width: fit-content;
-    margin-left: 93px;
+    margin-left: 50px;
   }
 
   .hero .flex-content .pattern-div {

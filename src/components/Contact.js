@@ -13,7 +13,7 @@ function Contact() {
               <label htmlFor="your name">Your Name</label>
               <input className="input-form1" type="text" />
             </div>
-            <div>
+            <div className="email-form">
               <label htmlFor="Email Adress">Email Address</label>
               <input className="input-form1" type="text" />
             </div>

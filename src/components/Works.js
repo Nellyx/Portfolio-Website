@@ -6,16 +6,18 @@ function Works() {
     <div className="work" id="work">
       <div className="content">
         <div className="container-one">
-          <h1>Frontend Development</h1>
-          <p>
-            Websites application or other design related tasks. I love tackling
-            digital problems.I build modern and scalable user interfaces using
-            modern frontend web technologies.
-          </p>
+          <div className="margin">
+            <h1>Frontend Development</h1>
+            <p>
+              Websites application or other design related tasks. I love
+              tackling digital problems.I build modern and scalable user
+              interfaces using modern frontend web technologies.
+            </p>
 
-          <button>
-            See my works <img src="/images/east.svg" alt="left arrow" />
-          </button>
+            <button>
+              See my works <img src="/images/east.svg" alt="left arrow" />
+            </button>
+          </div>
         </div>
 
         <div className="container-two">

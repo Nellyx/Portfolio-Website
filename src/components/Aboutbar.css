@@ -180,11 +180,11 @@
   }
 
   .aboutbar .about-content .left-text .left-margin {
-    margin-left: 85px;
+    margin-left: 50px;
   }
 
   .aboutbar .about-content .left-text .main {
-    width: 530px;
+    width: 540px;
     font-size: 17px;
     font-weight: 500;
     line-height: 32px;
@@ -194,7 +194,7 @@
   }
 
   .aboutbar .about-content .right-text .right-margin {
-    margin-left: 85px;
+    margin-left: 50px;
   }
 
   .aboutbar .about-content .right-text {
@@ -206,7 +206,7 @@
   }
 
   .aboutbar .about-content .right-text .main {
-    width: 530px;
+    width: 540px;
     font-size: 17px;
     font-weight: 500;
     line-height: 32px;
@@ -216,7 +216,7 @@
   }
 
   .aboutbar .about-content .right-text .techbox .tech-text {
-    width: 530px;
+    width: 540px;
     font-size: 17px;
     font-weight: 500;
     line-height: 32px;
