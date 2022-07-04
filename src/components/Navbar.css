@@ -23,9 +23,7 @@
   text-decoration: none;
   color: #193498;
   margin: 0px 60px;
-  display: inline;
 }
-
 
 @media screen and (max-width: 1440px) {
   .navbar nav {
@@ -65,10 +63,6 @@
     width: 668px;
     margin: auto;
     align-items: center;
-  }
-
-  .navbar nav .link-box {
-    visibility: hidden;
   }
 
   .navbar {
