@@ -19,7 +19,7 @@ function Navbar() {
               <NavLink to="/contactbar">Contact</NavLink>
             </li>
             <li className="links">
-              <NavLink to="/work">Work</NavLink>
+              <NavLink to="/myworks">Work</NavLink>
             </li>
           </ul>
         </div>

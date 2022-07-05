@@ -15,16 +15,14 @@
   margin-right: auto;
   text-decoration: none;
   color: #64fbd3;
-  font-weight: 800;
+  font-weight: 900;
   font-family: SF UI Display;
   font-size: 20px;
 }
 
 .navbar nav .link-box ul li {
   display: inline;
-
   color: #193498;
-
   margin: 0px 60px;
 }
 
