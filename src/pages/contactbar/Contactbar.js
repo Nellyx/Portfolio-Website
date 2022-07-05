@@ -1,14 +1,14 @@
 import React from "react";
-import Aboutbar from "../../components/Aboutbar";
+import Contact from "../../components/Contact";
 import Footer from "../../components/Footer";
 
-function About() {
+function Contactbar() {
   return (
     <div>
-      <Aboutbar/>
+      <Contact /> 
       <Footer/>
     </div>
   );
 }
 
-export default About;
+export default Contactbar;

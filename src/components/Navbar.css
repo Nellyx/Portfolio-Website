@@ -1,6 +1,6 @@
 .navbar {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background: linear-gradient(90deg, #193498 54%, #64fbd3 50%);
 }
 
@@ -19,10 +19,18 @@
   font-family: SF UI Display;
   font-size: 20px;
 }
-.navbar nav a.link {
+
+.navbar nav .link-box ul li {
+  display: inline;
+
+  color: #193498;
+
+  margin: 0px 60px;
+}
+
+.navbar nav .link-box ul li a {
   text-decoration: none;
   color: #193498;
-  margin: 0px 60px;
 }
 
 @media screen and (max-width: 1440px) {
@@ -51,9 +59,8 @@
     align-items: center;
   }
 
-  .navbar nav a.link {
-    text-decoration: none;
-    color: #193498;
+  .navbar nav .link-box ul li {
+    display: inline;
     margin: 0px 45px;
   }
 }
@@ -63,6 +70,10 @@
     width: 668px;
     margin: auto;
     align-items: center;
+  }
+
+  .navbar nav .link-box {
+    visibility: hidden;
   }
 
   .navbar {

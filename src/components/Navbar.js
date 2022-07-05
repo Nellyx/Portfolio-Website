@@ -9,15 +9,19 @@ function Navbar() {
           <h1>nelly</h1>
         </NavLink>
         <div className="link-box">
-          <NavLink className="link" exact to="/about">
-            About
-          </NavLink>
-          <NavLink className="link" to="/work">
-            Work
-          </NavLink>
-          <NavLink className="link" to="">
-            Contact
-          </NavLink>
+          <ul>
+            <li className="links">
+              <NavLink exact to="/about">
+                About
+              </NavLink>
+            </li>
+            <li className="links">
+              <NavLink to="/contactbar">Contact</NavLink>
+            </li>
+            <li className="links">
+              <NavLink to="/work">Work</NavLink>
+            </li>
+          </ul>
         </div>
       </nav>
     </div>
