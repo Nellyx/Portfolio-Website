@@ -1,0 +1,72 @@
+.navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: linear-gradient(90deg, #193498 54%, #64fbd3 50%);
+}
+
+.navbar nav {
+  display: flex;
+  width: 1200px;
+  margin: auto;
+  align-items: center;
+}
+
+.navbar nav a.brand {
+  margin-right: auto;
+  text-decoration: none;
+  color: #64fbd3;
+  font-weight: 800;
+  font-family: SF UI Display;
+  font-size: 30px;
+}
+
+.navbar nav .nav-menu {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+.navbar nav .nav-menu .nav-item {
+  list-style-type: none;
+
+  margin: 0px 60px;
+}
+
+.navbar nav .nav-menu .nav-link {
+  text-decoration: none;
+}
+.navbar nav .toggler-icon {
+  cursor: pointer;
+  display: none;
+}
+
+.navbar nav .toggler-icon div {
+  width: 25px;
+  margin: 4px 0px;
+  height: 2px;
+  background-color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar nav .toggler-icon {
+    display: block;
+  }
+
+  .navbar nav .nav-menu {
+    position: fixed;
+    background: #193498;
+    flex-direction: column;
+    top: 10vh;
+    width: 40%;
+    height: 90vh;
+    right: 0;
+    transform: translateX(100%);
+  }
+
+  .navbar nav {
+    display: flex;
+    width: 668px;
+    margin: auto;
+    align-items: center;
+  }
+}
