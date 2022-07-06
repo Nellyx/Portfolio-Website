@@ -25,10 +25,13 @@ function Hero() {
       </div>
 
       <div className="socials">
-        <a className="icon-link" href="">
+        <a className="icon-link" href="https://github.com/Nellyx">
           <img src="images/github.svg" alt="github icon" />
         </a>
-        <a className="icon-link" href="">
+        <a
+          className="icon-link"
+          href="https://www.linkedin.com/in/nelson-michael-a5a7ba240"
+        >
           <img src="images/linkedin.svg" alt="linked icon" />
         </a>
         <a className="icon-link" href="">

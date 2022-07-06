@@ -1,27 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 import "./Navbar.css";
 function Navbar() {
   return (
     <div className="navbar">
-      <nav>
+      <nav className="nav">
         <NavLink className="brand" exact to="/">
-          <h1>nelly</h1>
+          nelly
         </NavLink>
-        <div className="link-box">
-          <ul>
-            <li className="links">
-              <NavLink exact to="/about">
-                About
-              </NavLink>
-            </li>
-            <li className="links">
-              <NavLink to="/contactbar">Contact</NavLink>
-            </li>
-            <li className="links">
-              <NavLink to="/myworks">Work</NavLink>
-            </li>
-          </ul>
+        <ul className="nav-menu">
+          <li className="nav-item">
+            <NavLink className="nav-link" to="#"></NavLink>
+          </li>
+        </ul>
+
+        <div className="nav-toggler-icon">
+          <div className="line-1"></div>
+          <div className="line-2"></div>
+          <div className="line-3"></div>
         </div>
       </nav>
     </div>
