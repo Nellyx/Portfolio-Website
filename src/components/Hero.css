@@ -1,8 +1,8 @@
 .hero {
   padding-top: 40px;
   padding-bottom: 140px;
-  background: url("../../public/images/dot.svg") no-repeat 58% 94%,
-    url("../../public/images/dot.svg") no-repeat 58% 4%,
+  background: url("../../public/images/dot.svg") no-repeat 61% 94%,
+    url("../../public/images/dot.svg") no-repeat 61% 4%,
     url("../../public/images/dot.svg") no-repeat 95% 7%,
     url("../../public/images/dot.svg") no-repeat 95% 90%,
     url("../../public/images/Frame20.svg") no-repeat 27% -1%,
@@ -10,7 +10,7 @@
     url("../../public/images/group.svg") no-repeat 86% 5%,
     url("../../public/images/Frame13.svg") no-repeat 9% 86%,
     url("../../public/images/Frame13.svg") no-repeat 45% 29%,
-    linear-gradient(90deg, #193498 54%, #64fbd3 50%);
+    linear-gradient(90deg, #193498 58%, #64fbd3 42%);
   position: relative;
   background-size: 10px 10px, 10px 10px, 10px 10px, 10px 10px, 100px 100px,
     100px 100px, 100px 100px, 100px 100px, 100px 100px, cover;

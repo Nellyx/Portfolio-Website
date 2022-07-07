@@ -12,7 +12,7 @@ function Navbar() {
 
   const onToggle = () => {
     collapse === "nav-menu"
-      ? setcollapse("nav-menu nav-collapse")
+      ? setcollapse("nav-collapse")
       : setcollapse("nav-menu");
   };
 
