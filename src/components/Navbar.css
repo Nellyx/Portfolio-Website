@@ -44,23 +44,31 @@
   width: 25px;
   margin: 4px 0px;
   height: 2px;
-  background-color: red;
+  background-color: #fff;
+  border-radius: 20px;
 }
 
 @media screen and (max-width: 768px) {
+  .navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(90deg, #193498 100%, #64fbd3 0%);
+  }
+
   .navbar nav .toggler-icon {
     display: block;
   }
 
   .navbar nav .nav-menu {
     position: fixed;
-    background: #193498;
+    background: red;
     flex-direction: column;
-    top: 10vh;
-    width: 40%;
-    height: 90vh;
+    top: 7vh;
+    width: 30%;
+    height: 60vh;
     right: 0;
     transform: translateX(100%);
+    transition: 0.5s ease;
   }
 
   .navbar nav {
@@ -69,4 +77,7 @@
     margin: auto;
     align-items: center;
   }
+}
+.navbar .nav-menu .nav-collapse {
+  transform: translateX(0%);
 }
