@@ -186,11 +186,16 @@
     font-family: SF UI Display;
   }
 
+  .experience .text .left-margin a {
+    text-decoration: none;
+  }
+
   .experience .text button {
     margin-top: 13px;
     background-color: transparent;
     padding: 15px 12px;
     border: 1px solid #64fbd3;
+    text-decoration: none;
     border-radius: 4px;
     color: #64fbd3;
     align-items: center;

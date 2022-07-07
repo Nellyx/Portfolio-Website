@@ -1,5 +1,4 @@
 import "./Experience.css";
-import React from "react";
 
 function Experience() {
   return (
@@ -24,7 +23,10 @@ function Experience() {
               Innovation Hub, where i built different user interfaces using
               modern web technologies
             </p>
-            <button>Download Resume</button>
+
+            <a href="https://my.indeed.com/rdp/c804a2e2ca457810/pdf">
+              <button>Download Resume</button>
+            </a>
           </div>
         </div>
         <div className="box">

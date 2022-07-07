@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import { getTopnav } from "../data/Navbars";
 function Navbar() {
   const [navitems, setnavitems] = useState([]);
   const [collapse, setcollapse] = useState("nav-menu");
+
+  const [togglericon, settogglericon] = useState("toggler-icon");
 
   useEffect(() => {
     setnavitems(getTopnav());
@@ -14,6 +16,10 @@ function Navbar() {
     collapse === "nav-menu"
       ? setcollapse("nav-collapse")
       : setcollapse("nav-menu");
+
+    togglericon === "toggler-icon"
+      ? settogglericon("x-icon")
+      : settogglericon("toggler-icon");
   };
 
   return (
@@ -23,7 +29,7 @@ function Navbar() {
           nelly
         </NavLink>
         <ul className={collapse}>
-          {navitems.map(item => (
+          {navitems.map((item) => (
             <li key={item.id} className="nav-item">
               <NavLink className="nav-link" to={item.to}>
                 {item.label}
@@ -31,7 +37,7 @@ function Navbar() {
             </li>
           ))}
         </ul>
-        <div className="toggler-icon" onClick={onToggle}>
+        <div className={togglericon} onClick={onToggle}>
           <div className="line-1"></div>
           <div className="line-2"></div>
           <div className="line-3"></div>

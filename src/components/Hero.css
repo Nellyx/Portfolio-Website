@@ -55,13 +55,46 @@
   margin-top: 20px;
 }
 
-.hero .flex-content .text button {
+/* .hero .flex-content .text button {
   padding: 16px 30px;
   color: #64fbd3;
   border: #64fbd3 1px solid;
   font-size: 14px;
   background-color: transparent;
   border-radius: 4px;
+} */
+
+.hero .flex-content .text button {
+  color: #64fbd3;
+  padding: 16px 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 3px;
+  z-index: 0;
+  background: transparent;
+  overflow: hidden;
+  border: #64fbd3 1px solid;
+}
+.hero .flex-content .text button:hover {
+  color: #193498;
+}
+.hero .flex-content .text button:hover:after {
+  width: 100%;
+}
+.hero .flex-content .text button:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #64fbd3;
 }
 
 /* pattern-div */
