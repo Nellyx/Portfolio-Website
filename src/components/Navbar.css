@@ -84,47 +84,7 @@
   border-radius: 20px;
 }
 
-@media screen and (max-width: 1200px) {
-  .navbar {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background: linear-gradient(90deg, #193498 58%, #64fbd3 42%);
-  }
 
-  .navbar nav {
-    display: flex;
-    width: 1050px;
-    margin: auto;
-    align-items: center;
-  }
-
-  .navbar nav .nav-menu .nav-item {
-    list-style-type: none;
-    margin: 0px 45px;
-    color: #193498;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .navbar {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background: linear-gradient(90deg, #193498 58%, #64fbd3 42%);
-  }
-
-  .navbar nav {
-    display: flex;
-    width: 892px;
-    margin: auto;
-    align-items: center;
-  }
-
-  .navbar nav .nav-menu .nav-item {
-    list-style-type: none;
-    margin: 0px 40px;
-    color: #193498;
-  }
-}
 
 @media screen and (max-width: 768px) {
   .navbar {
