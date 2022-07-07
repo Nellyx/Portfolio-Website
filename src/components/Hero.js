@@ -34,13 +34,16 @@ function Hero() {
         >
           <img src="images/linkedin.svg" alt="linked icon" />
         </a>
-        <a className="icon-link" href="">
+        <a
+          className="icon-link"
+          href="https://www.facebook.com/nelson.michael.90/"
+        >
           <img src="images/facebook.svg" alt="facebook icon" />
         </a>
-        <a className="icon-link" href="">
+        <a className="icon-link" href="https://www.facebook.com/nelson.michael.90/">
           <img src="images/twitter.svg" alt="twitter icon" />
         </a>
-        <a className="icon-link" href="">
+        <a className="icon-link" href="https://www.facebook.com/nelson.michael.90/">
           <img src="images/instagram.svg" alt="instagram icon" />
         </a>
       </div>

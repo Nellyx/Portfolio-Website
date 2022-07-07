@@ -35,19 +35,25 @@ function Footer() {
       </div>
 
       <div className="socials">
-        <a className="icon-link" href="">
+        <a className="icon-link" href="https://github.com/Nellyx">
           <img src="images/Githubgreen.svg" alt="github icon" />
         </a>
-        <a className="icon-link" href="">
+        <a
+          className="icon-link"
+          href="https://www.linkedin.com/in/nelson-michael-a5a7ba240"
+        >
           <img src="images/linkedingreen.svg" alt="linked icon" />
         </a>
-        <a className="icon-link" href="">
+        <a
+          className="icon-link"
+          href="https://www.facebook.com/nelson.michael.90/"
+        >
           <img src="images/facebookgreen.svg" alt="facebook icon" />
         </a>
-        <a className="icon-link" href="">
+        <a className="icon-link" href="https://www.facebook.com/nelson.michael.90/">
           <img src="images/twittergreen.svg" alt="twitter icon" />
         </a>
-        <a className="icon-link" href="">
+        <a className="icon-link" href="https://www.facebook.com/nelson.michael.90/">
           <img src="images/instagramgreen.svg" alt="instagram icon" />
         </a>
       </div>
