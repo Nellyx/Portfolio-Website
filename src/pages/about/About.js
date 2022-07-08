@@ -6,8 +6,6 @@ import Navbar from "../../components/Navbar";
 function About() {
   return (
     <div>
-      <Navbar />
-
       <Aboutbar />
       <Footer />
     </div>
