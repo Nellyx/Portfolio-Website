@@ -6,8 +6,8 @@ import "./Navbar.css";
 
 function Navbar() {
   const [navItems, setnavItems] = useState([]);
-
   const [collapse, setcollapse] = useState("nav-menu");
+  const [toggle, settoggle] = useState("toggle-icon");
 
   useEffect(() => {
     setnavItems(getTopnav);
@@ -17,6 +17,10 @@ function Navbar() {
     collapse === "nav-menu"
       ? setcollapse("nav-collapse")
       : setcollapse("nav-menu");
+
+    toggle === "toggle-icon"
+      ? settoggle("toggle-icon-set")
+      : settoggle("toggle-icon");
   };
 
   return (
@@ -37,7 +41,7 @@ function Navbar() {
         </ul>
 
         <div
-          className="toggle-icon-set"
+          className={toggle}
           onClick={() => {
             handleNav();
           }}
