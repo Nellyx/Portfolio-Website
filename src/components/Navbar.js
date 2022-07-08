@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { getTopnav } from "../data/Topnav.js";
 
+import "./Navbar.css";
+
 function Navbar() {
   const [navItems, setnavItems] = useState([]);
 
@@ -11,9 +13,9 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      <nav className="=nav">
+      <nav className="nav">
         <NavLink className="brand" exact to="/">
-          Nelly
+          nelly
         </NavLink>
 
         <ul className="nav-menu">
