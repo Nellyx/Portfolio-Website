@@ -5,8 +5,8 @@ import Footer from "../../components/Footer";
 function Contactbar() {
   return (
     <div>
-      <Contact /> 
-      <Footer/>
+      <Contact />
+      <Footer />
     </div>
   );
 }
