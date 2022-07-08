@@ -108,6 +108,32 @@
   }
 }
 
+@media screen and (max-width: 992px) {
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: linear-gradient(90deg, #193498 58%, #64fbd3 42%);
+  }
+
+  .navbar nav {
+    display: flex;
+    width: 892px;
+    margin: auto;
+    align-items: center;
+  }
+
+  .navbar nav .nav-menu .nav-item {
+    margin: 0px 35px;
+    list-style: none;
+    text-decoration: none;
+  }
+  .navbar nav .nav-menu .nav-item .nav-link {
+    text-decoration: none;
+    color: #193498;
+    font-family: SF UI Display;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .navbar {
     background: linear-gradient(90deg, #193498 100%, #64fbd3 0%);
