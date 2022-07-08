@@ -7,9 +7,17 @@ import "./Navbar.css";
 function Navbar() {
   const [navItems, setnavItems] = useState([]);
 
+  const [collapse, setcollapse] = useState("nav-menu");
+
   useEffect(() => {
     setnavItems(getTopnav);
   }, []);
+
+  const handleNav = () => {
+    collapse === "nav-menu"
+      ? setcollapse("nav-collapse")
+      : setcollapse("nav-menu");
+  };
 
   return (
     <div className="navbar">
@@ -18,7 +26,7 @@ function Navbar() {
           nelly
         </NavLink>
 
-        <ul className="nav-menu">
+        <ul className={collapse}>
           {navItems.map((item) => (
             <li key={item.id} className="nav-item">
               <NavLink className="nav-link" to={item.to}>
@@ -28,7 +36,12 @@ function Navbar() {
           ))}
         </ul>
 
-        <div className="toggle-icon">
+        <div
+          className="toggle-icon-set"
+          onClick={() => {
+            handleNav();
+          }}
+        >
           <div className="line-1"></div>
           <div className="line-2"></div>
           <div className="line-3"></div>

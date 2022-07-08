@@ -44,7 +44,7 @@
   text-decoration: none;
 }
 
-.navbar nav .nav-menu .nav-item .nav-link {
+.navbar nav .nav-collapse .nav-item .nav-link {
   text-decoration: none;
   color: #193498;
   font-family: SF UI Display;
@@ -57,6 +57,19 @@
 }
 
 .navbar nav .toggle-icon div {
+  width: 24px;
+  height: 2px;
+  margin: 4px 0px;
+  background-color: white;
+}
+
+/* toggle-icon-set */
+.navbar nav .toggle-icon-set {
+  cursor: pointer;
+  display: none;
+}
+
+.navbar nav .toggle-icon-set div {
   width: 24px;
   height: 2px;
   margin: 4px 0px;
@@ -80,6 +93,11 @@
     display: block;
   }
 
+  .navbar nav .toggle-icon-set {
+    cursor: pointer;
+    display: block;
+  }
+
   .navbar nav .nav-menu {
     display: flex;
     align-items: center;
@@ -91,13 +109,51 @@
     right: 0;
     width: 30%;
     z-index: 1;
+    transform: translateX(100%);
 
-    /* transform: translateX(100%); */
+    transition: 0.6s ease;
   }
 
   .navbar nav .nav-menu .nav-item {
     margin: 50px 0px;
     list-style: none;
     text-decoration: none;
+  }
+
+  /* nav-collapse */
+
+  .navbar nav .nav-collapse {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    flex-direction: column;
+    background-color: #64fbd3;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    width: 30%;
+    z-index: 1;
+    transform: translateX(0%);
+    transition: 0.6s ease;
+  }
+
+  .navbar nav .nav-collapse .nav-item {
+    margin: 50px 0px;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  /* Toogle icon  */
+
+  .navbar nav .toggle-icon-set .line-1 {
+    transform: translate(-5px, 5px) rotate(-45deg);
+  }
+
+  .navbar nav .toggle-icon-set .line-2 {
+    opacity: 0;
+  }
+
+  .navbar nav .toggle-icon-set .line-3 {
+    transform: translate(-5px, -7px) rotate(45deg);
   }
 }
