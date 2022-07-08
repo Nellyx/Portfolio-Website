@@ -1,6 +1,6 @@
 .navbar {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   background: linear-gradient(90deg, #193498 58%, #64fbd3 42%);
 }
 
@@ -19,126 +19,34 @@
   font-family: SF UI Display;
   font-size: 30px;
 }
-/* nav menu */
-.navbar nav .nav-menu {
-  align-items: center;
-  justify-content: space-around;
+
+/* nav */
+.navbar nav .nav-links {
   display: flex;
+  flex-direction: column;
 }
 
-.navbar nav .nav-menu .nav-item {
-  list-style-type: none;
-  margin: 0px 60px;
-  color: #193498;
+.nav-bar nav .nav-links .nav-item {
+  margin: 60px 0px;
 }
 
-.navbar nav .nav-menu .nav-link {
-  text-decoration: none;
-  color: #193498;
-}
+/* toggle */
 
-/* nav-collapse */
-
-.navbar nav .nav-collapse {
-  align-items: center;
-  justify-content: space-around;
-  display: flex;
-}
-
-.navbar nav .nav-collapse .nav-item {
-  list-style-type: none;
-  margin: 0px 60px;
-  color: #193498;
-}
-
-.navbar nav .nav-collapse .nav-link {
-  text-decoration: none;
-  color: #193498;
-}
-
-.navbar nav .toggler-icon {
+.navbar nav .toggle {
   cursor: pointer;
   display: none;
 }
 
-.navbar nav .toggler-icon div {
+.navbar nav .toggle div {
   width: 25px;
   margin: 4px 0px;
   height: 2px;
   background-color: #fff;
   border-radius: 20px;
 }
-
-/* x icon */
-
-.navbar nav .x-icon {
-  cursor: pointer;
-  display: none;
-}
-
-.navbar nav .x-icon div {
-  width: 25px;
-  margin: 4px 0px;
-  height: 2px;
-  background-color: #fff;
-  border-radius: 20px;
-}
-
-
 
 @media screen and (max-width: 768px) {
   .navbar {
-    padding-top: 10px;
-    padding-bottom: 10px;
     background: linear-gradient(90deg, #193498 100%, #64fbd3 0%);
   }
-
-  .navbar nav .toggler-icon {
-    display: block;
-  }
-  .navbar nav .x-icon {
-    display: block;
-  }
-
-  .navbar nav .nav-menu {
-    position: fixed;
-    background: #64fbd3;
-    flex-direction: column;
-    top: 7vh;
-    width: 100%;
-    height: 60vh;
-    right: 0;
-    transform: translateX(100%);
-    transition: 0.5s ease;
-  }
-
-  .navbar nav {
-    display: flex;
-    width: 668px;
-    margin: auto;
-    align-items: center;
-  }
-  .nav-collapse {
-    transform: translateX(0%);
-    position: fixed;
-    background: #64fbd3;
-    flex-direction: column;
-    top: 7vh;
-    width: 100%;
-    height: 60vh;
-    right: 0;
-    transition: 0.5s ease;
-  }
-}
-
-/* Toggle Icon animation */
-.x-icon .line-1 {
-  transform: translate(-6px, 5px) rotate(-45deg);
-}
-.x-icon .line-2 {
-  opacity: 0;
-}
-
-.x-icon .line-3 {
-  transform: translate(-5px, -7px) rotate(45deg);
 }
