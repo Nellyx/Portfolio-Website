@@ -31,6 +31,19 @@
   text-decoration: none;
 }
 
+/* nav-collapse */
+
+.navbar nav .nav-collapse {
+  display: flex;
+  align-items: center;
+}
+
+.navbar nav .nav-collapse .nav-item {
+  margin: 0px 60px;
+  list-style: none;
+  text-decoration: none;
+}
+
 .navbar nav .nav-menu .nav-item .nav-link {
   text-decoration: none;
   color: #193498;
@@ -74,9 +87,17 @@
     flex-direction: column;
     background-color: #64fbd3;
     position: fixed;
-    top: 10vh;
+    top: 50px;
     right: 0;
-    height: 30vh;
+    width: 30%;
     z-index: 1;
+
+    /* transform: translateX(100%); */
+  }
+
+  .navbar nav .nav-menu .nav-item {
+    margin: 50px 0px;
+    list-style: none;
+    text-decoration: none;
   }
 }
