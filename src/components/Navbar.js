@@ -16,7 +16,6 @@ function Navbar() {
 
   const handleClose = () => {
     nav === "nav-menu show" ? setnav("nav-menu") : setnav("nav-menu show");
-
     toggler === "toggler-icon toggle"
       ? settoggler("toggler-icon")
       : settoggler("toggler-icon toggle");
