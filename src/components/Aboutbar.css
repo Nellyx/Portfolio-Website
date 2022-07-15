@@ -235,7 +235,7 @@
   }
 
   .aboutbar .about-content .left-text .left-margin {
-    margin-left: 41px;
+    margin-left: 20px;
   }
 
   .aboutbar .about-content .left-text .main {
@@ -249,7 +249,7 @@
   }
 
   .aboutbar .about-content .right-text .right-margin {
-    margin-left: 41px;
+    margin-left: 20px;
   }
 
   .aboutbar .about-content .right-text .main {
@@ -282,7 +282,7 @@
   }
 
   .aboutbar .about-content .left-text .left-margin {
-    margin-left: 35px;
+    margin-left: 20px;
   }
 
   .aboutbar .about-content .left-text .main {
@@ -313,7 +313,7 @@
   }
 
   .aboutbar .about-content .right-text .right-margin {
-    margin-left: 35px;
+    margin-left: 20px;
   }
 
   .aboutbar .about-content .right-text .techbox .tech-text {
@@ -327,7 +327,7 @@
   }
 
   .aboutbar .about-content .left-text h1 {
-    width: 404px;
+    width: 340px;
     font-weight: 700;
     font-size: 28px;
     color: #221042;
@@ -343,8 +343,20 @@
     flex-direction: column;
   }
 
+
+  .aboutbar .about-content .left-text h1 {
+    width: 200px;
+    font-weight: 700;
+    font-size: 28px;
+    color: #221042;
+    margin-top: 13px;
+  }
+
+
+
+
   .aboutbar .about-content .left-text .left-margin {
-    margin-left: 26px;
+    margin-left: 10px;
   }
 
   .aboutbar .about-content .left-text .main {
@@ -358,7 +370,7 @@
   }
 
   .aboutbar .about-content .right-text .right-margin {
-    margin-left: 26px;
+    margin-left: 10px;
   }
 
   .aboutbar .about-content .right-text .main {
