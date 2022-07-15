@@ -24,7 +24,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <nav>
-        <NavLink className="brand" exact to="/">
+        <NavLink className="brand" to="/">
           nelly
         </NavLink>
 
