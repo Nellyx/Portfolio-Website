@@ -1,5 +1,6 @@
 /* navbar */
 .navbar {
+  align-items: center;
   padding-top: 15px;
   padding-bottom: 15px;
   background: linear-gradient(90deg, #193498 58%, #64fbd3 42%);
@@ -25,7 +26,6 @@
   align-items: center;
   justify-content: space-around;
   margin-right: 40px;
-  position: relative;
 }
 
 .navbar nav .nav-menu .nav-item {
@@ -77,27 +77,27 @@
     gap: 40px 0px;
     align-items: center;
     justify-content: space-around;
-    margin-right: 40px;
     top: 66px;
-    right: 0px;
-    z-index: 2;
-    width: 40%;
+    right: -40px;
+    z-index: 1;
+    width: 100%;
     padding: 36px 0px;
-    transform: translateX(120%);
+    transform: translateX(100%);
     transition: 0.5s ease;
-  }
-
-  .navbar nav .nav-menu span {
-    position: absolute;
-    right: 21px;
-    top: 6px;
-    color: white;
-    font-size: 25px;
   }
 
   .navbar nav .nav-menu.show {
     transform: translateX(0%);
     transition: 0.5s ease;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navbar nav {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    max-width: 476px;
   }
 }
 
