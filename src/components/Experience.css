@@ -132,7 +132,7 @@
   }
 
   .experience .flex .text .left-margin {
-    margin-left: 41px;
+    margin-left: 20px;
   }
 
   .experience .paragraph {
@@ -148,7 +148,7 @@
 
   .experience .flex .image-box {
     width: 80%;
-    margin-left: 41px;
+    margin-left: 20px;
   }
 
   .experience .flex .box {
@@ -166,7 +166,7 @@
   }
 
   .experience .flex .text .left-margin {
-    margin-left: 35px;
+    margin-left: 20px;
   }
 
   .experience .text .header-text {
@@ -204,7 +204,7 @@
 
   .experience .flex .image-box {
     width: 76%;
-    margin-left: 35px;
+    margin-left: 20px;
   }
 }
 
@@ -217,7 +217,7 @@
   }
 
   .experience .flex .text .left-margin {
-    margin-left: 26px;
+    margin-left: 10px;
   }
   .experience .paragraph {
     margin-top: 20px;
@@ -238,6 +238,6 @@
 
   .experience .flex .image-box {
     width: 76%;
-    margin-left: 26px;
+    margin-left: 10px;
   }
 }

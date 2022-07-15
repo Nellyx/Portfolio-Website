@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "../../components/Hero";
 import Aboutbar from "../../components/Aboutbar";
-// import Experience from "../../components/Experience";
+import Experience from "../../components/Experience";
 // import Works from "../../components/Works";
 // import Contact from "../../components/Contact";
 // import Footer from "../../components/Footer";
@@ -14,7 +14,7 @@ function Home() {
 
       <Hero />
       <Aboutbar />
-      {/* <Experience /> */}
+      <Experience />
       {/* <Works /> */}
       {/* <Contact /> */}
       {/* <Footer /> */}
