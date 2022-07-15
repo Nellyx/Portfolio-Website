@@ -10,17 +10,17 @@ function Footer() {
         <div className="footer-flex">
           <div>
             <div className="footer-box">
-              <img src="images/mail.svg" alt="" />
+              <img src="images/mail.svg" alt="mail" />
               <p>neilsonmike14</p>
             </div>
 
             <div className="footer-box">
-              <img src="images/call.svg" alt="" />
+              <img src="images/call.svg" alt="phone call" />
               <p>08061332918</p>
             </div>
 
             <div className="footer-box">
-              <img src="images/location.svg" alt="" />
+              <img src="images/location.svg" alt="location" />
               <p>Abeokuta Ogunstate</p>
             </div>
           </div>
@@ -50,10 +50,16 @@ function Footer() {
         >
           <img src="images/facebookgreen.svg" alt="facebook icon" />
         </a>
-        <a className="icon-link" href="https://www.facebook.com/nelson.michael.90/">
+        <a
+          className="icon-link"
+          href="https://www.facebook.com/nelson.michael.90/"
+        >
           <img src="images/twittergreen.svg" alt="twitter icon" />
         </a>
-        <a className="icon-link" href="https://www.facebook.com/nelson.michael.90/">
+        <a
+          className="icon-link"
+          href="https://www.facebook.com/nelson.michael.90/"
+        >
           <img src="images/instagramgreen.svg" alt="instagram icon" />
         </a>
       </div>
