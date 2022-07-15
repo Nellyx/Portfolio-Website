@@ -10,17 +10,23 @@ function Contact() {
         <form action="">
           <div className="forms1">
             <div>
-              <label htmlFor="your name">Your Name</label>
+              <label className="label" htmlFor="your name">
+                Your Name
+              </label>
               <input className="input-form1" type="text" />
             </div>
             <div className="email-form">
-              <label htmlFor="Email Adress">Email Address</label>
+              <label className="label" htmlFor="Email Adress">
+                Email Address
+              </label>
               <input className="input-form1" type="text" />
             </div>
           </div>
           <div className="forms2">
             <div>
-              <label htmlFor="your message">Your message</label>
+              <label className="label" htmlFor="your message">
+                Your message
+              </label>
               <input className="input-form2" type="text" />
             </div>
           </div>

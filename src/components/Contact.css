@@ -159,18 +159,20 @@
     margin-top: 20px;
     justify-content: space-between;
     flex-direction: column;
-    margin-left: 41px;
+    margin-left: 20px;
   }
 
   .contact .content h1 {
     text-align: left;
-    margin-left: 41px;
+    margin-left: 20px;
   }
 
   .contact .content p {
     text-align: left;
     margin-top: 20px;
-    margin-left: 41px;
+    margin-left: 20px;
+    width: 375px;
+    line-height: 22px;
   }
 
   .contact .content form input {
@@ -188,7 +190,7 @@
 
   .contact .content form .forms2 {
     margin-top: 20px;
-    margin-left: 41px;
+    margin-left: 20px;
   }
 
   .contact .content form .input-form2 {
@@ -196,8 +198,13 @@
   }
 
   .contact .content form .button-div {
-    margin-left: 41px;
+    margin-left: 20px;
     width: fit-content;
+  }
+
+  .contact .content form {
+    margin: 41px 0px;
+    width: 477px;
   }
 }
 
@@ -205,6 +212,11 @@
   .contact {
     padding-top: 40px;
     padding-bottom: 10px;
+  }
+
+  .contact .content form {
+    margin: 30px 0px;
+    width: 358px;
   }
 
   .contact .content {
@@ -217,18 +229,20 @@
     margin-top: 20px;
     justify-content: space-between;
     flex-direction: column;
-    margin-left: 35px;
+    margin-left: 20px;
   }
 
   .contact .content h1 {
     text-align: left;
-    margin-left: 35px;
+    margin-left: 20px;
   }
 
   .contact .content p {
     text-align: left;
     margin-top: 8px;
-    margin-left: 35px;
+    margin-left: 20px;
+    width: 290px;
+    line-height: 22px;
   }
 
   .contact .content form input {
@@ -246,7 +260,7 @@
 
   .contact .content form .forms2 {
     margin-top: 20px;
-    margin-left: 35px;
+    margin-left: 20px;
   }
 
   .contact .content form .input-form2 {
@@ -254,7 +268,7 @@
   }
 
   .contact .content form .button-div {
-    margin-left: 35px;
+    margin-left: 20px;
     width: fit-content;
   }
 }
@@ -275,18 +289,19 @@
     margin-top: 20px;
     justify-content: space-between;
     flex-direction: column;
-    margin-left: 26px;
+    margin-left: 10px;
   }
 
   .contact .content h1 {
     text-align: left;
-    margin-left: 26px;
+    margin-left: 10px;
   }
 
   .contact .content p {
     text-align: left;
     margin-top: 8px;
-    margin-left: 26px;
+    margin-left: 10px;
+    width: 272px;
   }
 
   .contact .content form input {
@@ -304,7 +319,7 @@
 
   .contact .content form .forms2 {
     margin-top: 20px;
-    margin-left: 26px;
+    margin-left: 10px;
   }
 
   .contact .content form .input-form2 {
@@ -312,13 +327,18 @@
   }
 
   .contact .content form .button-div {
-    margin-left: 26px;
+    margin-left: 10px;
     width: fit-content;
   }
 
   .contact {
     padding-top: 30px;
     padding-bottom: 20px;
+  }
+
+  .contact .content form {
+    margin: 30px 0px;
+    width: 290px;
   }
 
   .contact .content form button {
