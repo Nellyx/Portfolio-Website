@@ -297,21 +297,26 @@
     flex-direction: column;
   }
 
+  .hero .flex-content .pattern-div {
+    width: 100%;
+    padding-top: 73px;
+  }
+
   .hero .flex-content .text h1 {
     color: #64fbd3;
     font-size: 65px;
     margin-top: 2px;
     font-family: SF UI Display;
     width: 100%;
-    margin-left: 41px;
+    margin-left: 20px;
     line-height: 71px;
     font-weight: 800;
   }
 
   .hero {
-    padding-top: 40px;
-    padding-bottom: 53px;
-    background: linear-gradient(180deg, #193498 46%, #64fbd3 37%);
+    padding-top: 35px;
+    padding-bottom: 25px;
+    background: linear-gradient(180deg, #193498 53%, #64fbd3 37%);
     position: relative;
   }
 
@@ -321,7 +326,7 @@
     margin-top: 10px;
     font-family: SF UI Display;
     width: 347px;
-    margin-left: 41px;
+    margin-left: 20px;
     line-height: 24px;
     font-weight: 500;
   }
@@ -329,11 +334,11 @@
   .hero .flex-content .text .button-box {
     width: -moz-fit-content;
     width: fit-content;
-    margin-left: 41px;
+    margin-left: 20px;
   }
 
   .hero .flex-content .pattern-div .avatar-box {
-    width: 77%;
+    width: 60%;
     margin: auto;
   }
 }
@@ -346,90 +351,48 @@
     flex-direction: column;
   }
 
-  .hero {
-    padding-top: 40px;
-    padding-bottom: 53px;
-    background: linear-gradient(180deg, #193498 49%, #64fbd3 37%);
-    position: relative;
+  .hero .flex-content .pattern-div {
+    width: 100%;
+    padding-top: 73px;
   }
 
   .hero .flex-content .text h1 {
     color: #64fbd3;
-    font-size: 46px;
-    margin-top: 24px;
+    font-size: 60px;
+    margin-top: 2px;
     font-family: SF UI Display;
     width: 100%;
-    margin-left: 35px;
-    line-height: 44px;
+    margin-left: 10px;
+    line-height: 60px;
     font-weight: 800;
+  }
+
+  .hero {
+    padding-top: 40px;
+    padding-bottom: 25px;
+    background: linear-gradient(180deg, #193498 60%, #64fbd3 37%);
+    position: relative;
   }
 
   .hero .flex-content .text p {
     color: #64fbd3;
-    font-size: 15px;
-    margin-top: 20px;
+    font-size: 16px;
+    margin-top: 10px;
     font-family: SF UI Display;
-    width: 319px;
-    margin-left: 35px;
+    width: 347px;
+    margin-left: 10px;
     line-height: 24px;
-    font-weight: 500;
-  }
-
-  .hero .flex-content .text button {
-    padding: 14px 20px;
-    color: #64fbd3;
-    border: #64fbd3 1px solid;
-    font-size: 14px;
-    background-color: transparent;
-    border-radius: 4px;
-  }
-
-  .hero .flex-content .pattern-div {
-    width: 100%;
-    padding-top: 107px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .hero .flex-content {
-    max-width: 300px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .hero .flex-content .text h1 {
-    color: #64fbd3;
-    font-size: 45px;
-    margin-top: 24px;
-    font-family: SF UI Display;
-    width: 100%;
-    margin-left: 26px;
-    line-height: 44px;
-    font-weight: 800;
+    font-weight: 400;
   }
 
   .hero .flex-content .text .button-box {
     width: -moz-fit-content;
     width: fit-content;
-    margin-left: 30px;
+    margin-left: 10px;
   }
 
-  .hero .flex-content .text p {
-    color: #64fbd3;
-    font-size: 15px;
-    margin-top: 20px;
-    font-family: SF UI Display;
-    width: 240px;
-    margin-left: 26px;
-    line-height: 24px;
-    font-weight: 500;
-  }
-
-  .hero {
-    padding-top: 40px;
-    padding-bottom: 53px;
-    background: linear-gradient(180deg, #193498 53%, #64fbd3 37%);
-    position: relative;
+  .hero .flex-content .pattern-div .avatar-box {
+    width: 60%;
+    margin: auto;
   }
 }
