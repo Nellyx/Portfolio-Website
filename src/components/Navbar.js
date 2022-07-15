@@ -14,12 +14,7 @@ function Navbar() {
       : settoggler("toggler-icon");
   };
 
-  const handleClose = () => {
-    nav === "nav-menu show" ? setnav("nav-menu") : setnav("nav-menu show");
-    toggler === "toggler-icon toggle"
-      ? settoggler("toggler-icon")
-      : settoggler("toggler-icon toggle");
-  };
+ 
 
   return (
     <div className="navbar">
@@ -29,14 +24,6 @@ function Navbar() {
         </NavLink>
 
         <ul className={nav}>
-          <span
-            className="close"
-            onClick={() => {
-              handleClose();
-            }}
-          >
-            x
-          </span>
           <li className="nav-item">
             <NavLink className="nav-link" to="/about">
               About
