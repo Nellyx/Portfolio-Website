@@ -92,24 +92,12 @@
   }
 }
 
-@media screen and (max-width: 576px) {
-  .navbar nav {
-    display: flex;
-    align-items: center;
-    margin: auto;
-    max-width: 476px;
-  }
-}
-
 .navbar nav .toggler-icon.toggle .line-1 {
   transform: translate(-5px, 5px) rotate(45deg);
-  display: none;
 }
 .navbar nav .toggler-icon.toggle .line-2 {
   opacity: 0;
-  display: none;
 }
 .navbar nav .toggler-icon.toggle .line-3 {
   transform: translate(-6px, -7px) rotate(-45deg);
-  display: none;
 }
