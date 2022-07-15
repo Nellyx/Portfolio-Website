@@ -1,4 +1,4 @@
-navbar .navbar {
+.navbar {
   align-items: center;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -48,6 +48,43 @@ navbar .navbar {
   width: 25px;
   margin: 4px 0px;
 }
+
+/* Mq */
+@media screen and (max-width: 1200px) {
+  .navbar nav {
+    max-width: 1050px;
+  }
+
+  .navbar nav .nav-menu {
+    gap: 0rem 100px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar nav {
+    max-width: 892px;
+  }
+
+  .navbar nav .nav-menu {
+    gap: 0rem 70px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 768px) {
   .navbar nav .toggler-icon {
